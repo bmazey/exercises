@@ -20,5 +20,3 @@
 </pre>
 
 Welcome to our exercises repo!
-
-Pushing to master ...
