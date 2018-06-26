@@ -14,6 +14,5 @@ public class FizzBuzz {
         //TODO - implement method!
         return new String();
 
-
     }
 }
