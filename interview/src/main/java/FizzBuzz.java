@@ -8,8 +8,9 @@ public class FizzBuzz {
 
     public static void main(String[] args) {
 
-    //cleaned up development
-    //my first commment
+        //cleaned up development
+        //my first commment
+        //my second comment
     }
 
     public String fizzBuzz(int i) {
