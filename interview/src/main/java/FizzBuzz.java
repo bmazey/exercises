@@ -17,7 +17,7 @@ public class FizzBuzz {
         int k = 440 ;
         String n = "buzz" ;
 
-        if ((k % 5) == 0) { // here I'' testing if the second number (int k) is divisible by 5
+        if ((k % 5) == 0) { // here I'm testing if the second number (int k) is divisible by 5
             System.out.println( n ) ;
         }
 
@@ -35,4 +35,4 @@ public class FizzBuzz {
      //  return new String();
 
     }
-}
+
