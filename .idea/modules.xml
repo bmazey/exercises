@@ -3,9 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/exercises/exercises.iml" filepath="$PROJECT_DIR$/exercises/exercises.iml" />
-      <module fileurl="file://$PROJECT_DIR$/interview/src/main/main.iml" filepath="$PROJECT_DIR$/interview/src/main/main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/interview/src/test/test.iml" filepath="$PROJECT_DIR$/interview/src/test/test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/verify/verify.iml" filepath="$PROJECT_DIR$/verify/verify.iml" />
     </modules>
   </component>
 </project>
