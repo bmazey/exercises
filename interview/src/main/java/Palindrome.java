@@ -11,7 +11,9 @@ public class Palindrome {
 
     public boolean isPalindrome(String s) {
 
-        //TODO - implement method!
+    //type here
+
+
 
         return true;
     }

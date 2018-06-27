@@ -11,7 +11,9 @@ public class PasswordGenerator {
 
     public static String generatePassword() {
 
-       //TODO - implement method!
+        String password = "pgeja3945$";
+
+        System.out.print(password);
 
         return new String();
     }
