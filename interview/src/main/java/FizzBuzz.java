@@ -20,7 +20,7 @@ public class FizzBuzz {
         {
             output += ("buzz");
         }
-        return new String();
+        return output;
 
     }
 }
