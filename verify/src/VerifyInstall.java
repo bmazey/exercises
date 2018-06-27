@@ -2,12 +2,13 @@ public class VerifyInstall {
 
     public static void main (String [] args) {
 
-        /**
-         * Run this program to validate that your IDE is working.
-         * You should be able to see a message appear in the console below without any errors.
-         */
+        String fox="the quick brown fox jumps over the lazy dog";
+        int x=5;
+        if(x>3){
+            fox="pretty little liars";
+            System.out.println(fox);
 
-        System.out.println("Looks great! Don't forget to send your github username to b.mazey@nyu.edu!");
+        }
 
     }
 }
