@@ -9,6 +9,7 @@ public class Panther extends Cat {
      */
 
     //TODO - implement methods!
+    //int legs = 4;
 
     void purr() {System.out.println("Purr"); }
 

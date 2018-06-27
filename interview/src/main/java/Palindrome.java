@@ -12,8 +12,7 @@ public class Palindrome {
         //string for reversing word
         String n = "";
         //loop for copying word into its reverse
-        int var;
-            for(var = s.length() - 1; var >=0; var--)
+            for(int var = s.length() - 1; var >= 0; var--)
                 {
                     n += s.charAt(var);
                 }
