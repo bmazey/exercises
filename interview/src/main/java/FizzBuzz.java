@@ -14,6 +14,8 @@ public class FizzBuzz {
 
     public String fizzBuzz(int i) {
 
+        //first comment!
+
         //TODO - implement method!
         return new String();
 
