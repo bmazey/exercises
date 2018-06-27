@@ -29,5 +29,7 @@ public class StringsExample {
         for (String t: myStringArray) {
             System.out.print(t + " ");
         }
+
+        //comment
     }
 }
