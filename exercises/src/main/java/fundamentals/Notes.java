@@ -2,7 +2,11 @@ package fundamentals;
 
 public class Notes {
 
+    String s = "let's test this thing" ;
+
     public static void main(String[] args) {
+
+
 
         int i = 10;
         double k = 2.5;
