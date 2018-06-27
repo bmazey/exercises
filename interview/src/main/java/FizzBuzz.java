@@ -14,14 +14,8 @@ public class FizzBuzz {
 
     public String fizzBuzz(int i) {
 
-        String result = "";
-
-        if (i % 3 == 0) result += "fizz";
-
-        if (i % 5 == 0) result += "buzz";
-
         //TODO - implement method!
-        return result;
+        return new String();
 
     }
 
