@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class FizzBuzz {
 
     /**
@@ -6,7 +8,13 @@ public class FizzBuzz {
      */
 
     public static void main(String [] args) {
-        
+        int i=0;
+        while (i<100){
+            i=i+1;
+            int[] intArray = new int[]{ i };
+            System.out.println(Arrays.toString(intArray));
+
+        }
     }
 
 
