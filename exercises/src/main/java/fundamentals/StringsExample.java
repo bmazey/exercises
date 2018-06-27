@@ -30,6 +30,6 @@ public class StringsExample {
             System.out.print(t + " ");
         }
 
-        //comment 2
+        //comment 3
     }
 }
