@@ -23,7 +23,7 @@ public class FizzBuzz {
 
         int j = 101640 ;
 
-        if ((j % 15) == 0 ) {
+        if ((j % 15) == 0 ) { // here I'm testing if the third number (int j) is divisible by 3 and 5
             System.out.println( m + n ) ;
         }
 
