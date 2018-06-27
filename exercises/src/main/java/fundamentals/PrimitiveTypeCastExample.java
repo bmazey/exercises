@@ -33,6 +33,8 @@ public class PrimitiveTypeCastExample {
 
         //my first comment!
 
+        //comment!
+
     }
 
 }
