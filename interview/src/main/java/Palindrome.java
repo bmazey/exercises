@@ -5,15 +5,17 @@ public class Palindrome {
      * @param args
      */
     public static void main(String [] args) {
-        String palindrome = "racecar";
-
 
     }
 
     public boolean isPalindrome(String s) {
 
-        //TODO - implement method!
+        StringBuilder myStringBuilder = new StringBuilder(s);
 
-        return true;
+        String reverseString = myStringBuilder.reverse().toString();
+
+        if (s.equals(reverseString)) return true;
+        else return false;
+
     }
 }
