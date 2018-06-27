@@ -12,7 +12,14 @@ public class FizzBuzz {
     public String fizzBuzz(int i) {
 
         //TODO - implement method!
-        return new String();
+        String result = "";
+
+        if (i % 3 == 0) result += "fizz";
+       if (i % 5 == 0) result += "buzz";
+
+        return result;
+
+
 
     }
 }
