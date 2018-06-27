@@ -15,12 +15,12 @@ public class Palindrome {
         boolean mirrorWord;
         //loop for copying word into its reverse
         int var;
-        for(var = s.length() - 1; var >=0; var--)
-        {
-            n += s.charAt(var);
-        }
+            for(var = s.length() - 1; var >=0; var--)
+                {
+                    n += s.charAt(var);
+                }
         //setting bool to true-false
-mirrorWord = (n == s);
+           mirrorWord = (n.equals(s));
         return mirrorWord;
     }
 }
