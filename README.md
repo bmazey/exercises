@@ -37,4 +37,4 @@ This means that the isPalindrome() method should return true for a "racecar",
 which is a palindrome!
 
 Once you know what your program is supposed to do and say, you can get to work
-on making it all happen. Good luck!!
+on making it all happen. Good luck!! :)
