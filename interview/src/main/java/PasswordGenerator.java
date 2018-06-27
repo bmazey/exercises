@@ -10,7 +10,7 @@ public class PasswordGenerator {
     }
 
     public static String generatePassword() {
-String characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOQRSTUVWXYZ0123456789";
+String characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 String password = "";
 Random randvalue = new Random();
        int loop;
@@ -23,6 +23,8 @@ Random randvalue = new Random();
        //adding rand letters-numbers
        for(loop = 1; loop <= 2; loop++)
            password += (characters.charAt(randvalue.nextInt(62)));
+       //debug
+       System.out.println(password);
         return password;
     }
 }
