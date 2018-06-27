@@ -8,15 +8,28 @@ public class FizzBuzz {
 
     public static void main(String[] args) {
 
-    //cleaned up development
 
     }
 
-    public String fizzBuzz(int i) {
+    public String fizzBuzz(int s) {
 
-        //TODO - implement method!
+        if (s % 3 == 0 && s % 5 == 0) {
+            return ("fizzbuzz");
+        }
+
+        if (s % 3 == 0) {
+            return ("fizz");
+        }
+
+        if (s % 5 == 0) {
+            return ("buzz");
+        }
+
+
+    //TODO - implement method!
         return new String();
 
     }
 
 }
+

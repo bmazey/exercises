@@ -4,7 +4,7 @@ import static org.junit.Assert.assertEquals;
 
 public class FizzBuzzTest {
 
-    FizzBuzz myFizzBuzz= new FizzBuzz();
+  FizzBuzz myFizzBuzz= new FizzBuzz();
 
     @Test
     public void testFizzBuzzMultipleOfThree() {
@@ -24,3 +24,4 @@ public class FizzBuzzTest {
         // add more cases?
     }
 }
+
