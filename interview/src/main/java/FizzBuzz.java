@@ -11,7 +11,15 @@ public class FizzBuzz {
 
     public String fizzBuzz(int i) {
 
-        //TODO - implement method!
+        if (i % 15 == 0) {
+            System.out.println("Fizzbuzz!");
+        }
+        else if (i % 3 == 0) {
+            System.out.println("Fizz");
+        }
+        else if (i % 5 == 0) {
+            System.out.println("Buzz");
+        }
         return new String();
 
     }
