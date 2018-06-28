@@ -28,7 +28,7 @@ public class PasswordGenerator {
         int o = rand.nextInt(16) ;
         s += symb.charAt(o);
 
-        // create an array
+
        //TODO - implement method!
 
         return s;
