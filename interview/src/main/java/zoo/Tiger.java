@@ -1,14 +1,6 @@
 package zoo;
 
-public class Panther extends Cat {
-
-    /**
-     * This extends Cat, so we have to implement the 'purr' method here.
-     * All Cats purr!
-     * @return
-     */
-
-    //TODO - implement methods!
+public class Tiger extends Cat {
 
     public String purr() {
         return "PowerPurr";
@@ -27,10 +19,11 @@ public class Panther extends Cat {
     }
 
     public Color getColor() {
-        return Color.BLACK;
+        return Color.ORANGE;
     }
 
     public Vertebrate getVertebrate() {
         return Vertebrate.MAMMAL;
     }
 }
+
