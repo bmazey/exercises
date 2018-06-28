@@ -28,7 +28,16 @@ public class FizzBuzz {
 
     public String fizzBuzz(int i) {
         //TODO - implement method!
-        return new String();
+
+
+        if (i%15 == 0)
+            return ("fizzbuzz");
+        else if (i%3 == 0)
+           return ("fizz");
+        else
+            return ("buzz");
+
+
     }
 }
 
