@@ -1,8 +1,7 @@
 public class FizzBuzz {
 
     /**
-     * Welcome to the Interview Challenge!
-     *
+     * Welcome to the Interview Challenge!.
      * @param args
      */
 
@@ -14,8 +13,16 @@ public class FizzBuzz {
 
     public String fizzBuzz(int i) {
 
-        //TODO - implement method!
-        return new String();
+        String output = "";
+        if((i % 3) == 0)
+        {
+            output += ("fizz");
+        }
+        if ((i % 5) == 0)
+        {
+            output += ("buzz");
+        }
+        return output;
 
     }
 
