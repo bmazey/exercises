@@ -7,17 +7,6 @@ public class FizzBuzz {
      */
 
     public static void main(String[] args) {
-        int a = 231;
-        if (231%3 == 0);
-        System.out.println("Fizz");
-
-        int b = 440;
-        if (231%5 == 0);
-        System.out.println("Buzz");
-
-        int c = 101640;
-        if (101640%15 == 0);
-        System.out.println("FizzBuzz");
 
     //cleaned up development
 
@@ -25,6 +14,18 @@ public class FizzBuzz {
 
     public String fizzBuzz(int i) {
 
+
+        if (i % 3 == 0 && i % 5 == 0) {
+            return ("fizzbuzz");
+        }
+
+        if (i % 3 == 0) {
+            return ("fizz");
+        }
+
+        if (i % 5 == 0) {
+            return ("buzz");
+        }
         //TODO - implement method!
         return new String();
 
