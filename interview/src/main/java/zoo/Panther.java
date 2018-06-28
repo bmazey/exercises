@@ -8,27 +8,34 @@ public class Panther extends Cat {
      * @return
      */
 
-    //TODO - implement methods!
+    String call = "ROAR";
 
     void purr() { }
 
     public Integer getSize() {
-        return null;
+        return 5;
     }
 
     public Integer getNumberOfLegs() {
-        return null;
+        return 4;
     }
 
     public String getCall() {
-        return null;
+        return call;
     }
 
     public Color getColor() {
-        return null;
+        return Color.BLACK;
     }
 
     public Vertebrate getVertebrate() {
-        return null;
+        return Vertebrate.MAMMAL;
     }
 }
+
+/** I'm not sure if I cheated here somewhere. Since the test wanted a size of 5 and 4 legs, I filled that into the first
+ *  returns. I made a string with "ROAR" to satisfy getCall, and I used the Color and Vertebrate responses from the other classes
+ *  for the last two returns.
+ */
+
+
