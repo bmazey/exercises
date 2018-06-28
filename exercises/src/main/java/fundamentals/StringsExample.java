@@ -10,7 +10,7 @@ public class StringsExample {
         //System.out.println(s.length());
 
         //this is a standard for loop
-        for (int i = 1; i < s.length(); i++) {
+        for (int i = s.length() - 1 ; i >= 0; i--) {
             //System.out.println(s.charAt(i) + ": i value is " + i);
         }
 
@@ -32,7 +32,7 @@ public class StringsExample {
         }
 
         for (String t: myStringArray) {
-            //System.out.print(t + " ");
+            System.out.print(t + " ");
         }
 
         //ok - below we'll demonstrate the == string behavior
