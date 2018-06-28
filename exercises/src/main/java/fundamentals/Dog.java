@@ -1,7 +1,6 @@
 package fundamentals;
 
 public class Dog {
-}
 
     public String bark() {
         return "bark";
@@ -16,3 +15,4 @@ public class Dog {
 
        // System.out.printIn("value of s: " + spot.bark() + " number of legs: " + spot.getNumberOfLegs())
     }
+}
