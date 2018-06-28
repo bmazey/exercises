@@ -11,8 +11,14 @@ public class Palindrome {
 
     public boolean isPalindrome(String s) {
 
+        StringBuilder myStringBuilder = new StringBuilder(s);
+        String reverseString = myStringBuilder.reverse().toString();
+        if (s.equals(reverseString)) return true;
+        else return false;
+
+
         //TODO - implement method!
 
-        return true;
+
     }
 }
