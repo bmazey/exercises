@@ -22,7 +22,7 @@
 **Welcome to our exercises repo!**
 
 Here is the content you need for our first week of class. We will work on
-materials from the exercises folder during the afternoon sessions. The content
+materials from the **exercises folder** during the afternoon sessions. The content
 in the interview folder is an optional challenge assignment for you to do on
 your own or with friends.
 
