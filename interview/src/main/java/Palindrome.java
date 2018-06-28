@@ -7,12 +7,13 @@ public class Palindrome {
 
     public static void main(String [] args) {
 
+
     }
 
     public boolean isPalindrome(String s) {
 
-        //TODO - implement method!
+        return s.equals(new StringBuilder(s).reverse().toString());
 
-        return true;
+
     }
 }
