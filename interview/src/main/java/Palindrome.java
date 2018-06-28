@@ -20,6 +20,8 @@ public class Palindrome {
 
         //TODO - implement method!
         if (n.equals(s)) return true;
-        return false;
+        else {
+            return false;
+        }
     }
 }
