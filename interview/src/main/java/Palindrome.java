@@ -5,6 +5,8 @@ public class Palindrome {
      * @param args
      */
 
+    // use n/2 so that the middle letter is not counted --> it does not have a matching letter
+
     public static void main(String [] args) {
 
     }
