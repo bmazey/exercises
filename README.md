@@ -19,7 +19,7 @@
                            `------`--`     ``--'--'    `-----`---`'----`--`
 </pre>
 
-Welcome to our exercises repo!
+**Welcome to our exercises repo!**
 
 Here is the content you need for our first week of class. We will work on
 materials from the exercises folder during the afternoon sessions. The content
