@@ -45,5 +45,6 @@ public class Dog {
          * This is also a comment!
          */
         //System.out.println(spot.allDogsGoToHeaven());
+        //test comment
     }
 }
