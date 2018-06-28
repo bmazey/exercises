@@ -47,7 +47,8 @@ public class StringsExample {
         System.out.println("here's the value of s1: " + s1);
         System.out.println("here's the value of s4: " + s4);
 
-        if (s1 == s4) {
+
+        if (s1.equals(s4)) {
             System.out.println("they are the same!");
         }
 
