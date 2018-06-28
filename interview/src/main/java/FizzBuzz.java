@@ -13,15 +13,15 @@ public class FizzBuzz {
         // Let the number go through the process of out put, 15 should be before 3 and 5
         //15
         if (multipleOfFifteen) {
-            System.out.print("fizzbuzz");
+            return ("fizzbuzz");
         }
         //3
         else if (multipleOfThree) {
-            System.out.print("fizz");
+            return("fizz");
         }
         //5
         else if (multipleOfFive) {
-            System.out.print("buzz");
+            return("buzz");
         }
 
         return new String();
