@@ -1,3 +1,5 @@
+import com.sun.org.apache.xpath.internal.operations.Bool;
+
 public class Palindrome {
 
     /**
@@ -6,13 +8,19 @@ public class Palindrome {
      */
 
     public static void main(String [] args) {
-
+      System.out.println("isPalindrome: "+isPalindrome("wuk"));
     }
 
-    public boolean isPalindrome(String s) {
+    public static boolean isPalindrome(String s) {
+        Boolean x=true;
+for(int i=0;i<s.length();i++){
+    if (s.charAt(i)==s.charAt(s.length()-(i+1))){
+x=true;
 
-        //TODO - implement method!
+    }else x=false;
 
-        return true;
-    }
 }
+
+return x;
+
+}}
