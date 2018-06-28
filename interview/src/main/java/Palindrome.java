@@ -4,6 +4,7 @@ public class Palindrome {
      * Welcome to the Interview Challenge!
      * @param args
      */
+    //use n/2 so that the middle letter is not counted --> it doesn't have a matching letter
 
     public static void main(String [] args) {
 
