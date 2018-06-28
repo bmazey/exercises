@@ -5,7 +5,9 @@ public class FizzBuzz {
      * @param args
      */
 
-    public static void main(String [] args) {
+    public static void main(String[] args) {
+
+    //cleaned up development
 
     }
 
@@ -23,4 +25,5 @@ public class FizzBuzz {
         return output;
 
     }
+
 }
