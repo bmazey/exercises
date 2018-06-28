@@ -8,28 +8,24 @@ public class FizzBuzz {
 
     public static void main(String[] args) {
 
-        int a = 231;
-        if (231%3 ==0);
-        System.out.println("Fizz");
 
-        int b = 440;
-        if (231%5 == 0);
-        System.out.println("Buzz");
-
-        int c = 101640;
-        if (101640%15 == 0);
-        System.out.println("FizzBuzz");
-
-        }
-        //cleaned up development
-        //my first commment
-        //my second comment
     }
 
     public String fizzBuzz(int i) {
 
-        //TODO - implement method!
-        return new String();
+        String ellie = "";
+        if(i % 3== 0) {
+            ellie += "fizz";
+        }
+
+
+        if(i % 5== 0) {
+            ellie += "buzz";
+        }
+
+
+
+        return ellie;
 
     }
 
