@@ -11,5 +11,7 @@ public class DogArrayTest {
     public void testDogArraySum() {
         int[] myArray = {1, 2, 3};
         assertThat(Dog.sumArray(myArray), equalTo(6));
+
+        //test commit
     }
 }
