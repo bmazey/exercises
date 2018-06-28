@@ -10,6 +10,7 @@ public class FizzBuzz {
     public static void main(String [] args) {
 
             System.out.println(fizzBuzz(45));
+            //type every integer-typed number in i column
 
 
         }
@@ -21,12 +22,19 @@ public class FizzBuzz {
         if  (i%3==0)
     if (i%5==0)
         result+="fizzbuzz";
-else
-    result+="fizz";
+    /**
+     * If i modulus 3 with result=0 and modulus 5 with result=0 then result will be equal to fizzbuzz
+     */
+    else
+        result+="fizz";
+        /**
+         * If first conditional was false,result will be fizz
+         */
         //TODO - implement method;
             else if (i%5==0)
           result+="buzz";
+            //result will be equal to buzz, if i modulus 5 without remainder
         return result;
-
+//returning result
     }
 }

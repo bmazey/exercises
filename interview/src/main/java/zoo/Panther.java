@@ -20,10 +20,12 @@ public class Panther extends Cat {
     public Integer getNumberOfLegs() {
         return 4;
     }
+    //Returning NumberOfLegs 4
 
     public String getCall() {
         return "Roar";
     }
+    //Returning Roar(like in test)
 
     public Color getColor() {
         return Color.BLACK;
