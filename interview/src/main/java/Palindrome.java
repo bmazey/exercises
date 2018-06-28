@@ -11,8 +11,17 @@ public class Palindrome {
 
     public boolean isPalindrome(String s) {
 
-        //TODO - implement method!
+        String Tarek = "";
 
-        return true;
+        for (int k = s.length()-1; k >= 0; k--) {
+            Tarek += s.charAt(k);
+        }
+
+        if (s.equals(Tarek))
+            return true;
+        else
+            return false;
+
     }
+
 }

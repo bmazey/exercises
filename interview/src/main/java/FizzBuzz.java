@@ -7,21 +7,20 @@ public class FizzBuzz {
 
     public static void main(String [] args) {
 
+
+
     }
 
     public String fizzBuzz(int i) {
 
-        public String fizzBuzz(int i) {
+        String result = "";
 
             if (i % 3 == 0)
-                return ("fizz");
-            else if (i % 5 == 0)
-                return ("buzz");
-            else if (i % 5 == 0 && i % 3 ==0)
-                return ("fizzbuzz");
+                result += "fizz";
 
-        //TODO - implement method!
-        return new String();
+            if (i % 5 == 0)
+                result += "buzz";
 
+            return result;
     }
 }

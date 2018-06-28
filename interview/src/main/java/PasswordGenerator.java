@@ -10,9 +10,17 @@ public class PasswordGenerator {
     }
 
     public static String generatePassword() {
+        String passwordGenerator = "";
 
-       //TODO - implement method!
+        for(int i = 0; i <= 5; i++) {
+            passwordGenerator += char.random;
+        }
 
-        return new String();
-    }
+        for(int k = 5; k > 5 && k <= 9; k++) {
+            passwordGenerator += int.random;
+        }
+
+            passwordGenerator.charAt(10) += int.random || char.random;
+        }
+        return passwordGenerator;
 }
