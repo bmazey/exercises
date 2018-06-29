@@ -22,7 +22,7 @@ public class Panther extends Cat {
 
     public void setSize(int size) {
         if (size > 10) {
-            System.out.println("this panther is too big!");
+            System.out.println("panther2 size: " +size + ". this panther is too big! it can't be " + size + ", it must be 10 or below!");
             this.size = 10;
         }
 
@@ -35,7 +35,7 @@ public class Panther extends Cat {
 
     public void setNumberOfLegs(int numberOfLegs) {
         if (numberOfLegs != 4) {
-            System.out.println("a panther has 4 legs!");
+            System.out.println("\nnumber of legs: " +numberOfLegs + ". a panther has 4 legs, not " + numberOfLegs);
             this.numberOfLegs = 4;
         }
 

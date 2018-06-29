@@ -25,7 +25,7 @@ public class Zoo {
 
         //changing panther2 legs
         panther2.setNumberOfLegs(5);
-        System.out.println("\npanther1 number of legs: " + panther1.getNumberOfLegs() + "\npanther2 number of legs: "+ panther2.getNumberOfLegs());
+        System.out.println("panther1 number of legs: " + panther1.getNumberOfLegs() + "\npanther2 number of legs: "+ panther2.getNumberOfLegs());
 
     }
 }
