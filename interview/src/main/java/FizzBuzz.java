@@ -18,6 +18,7 @@ public class FizzBuzz {
             System.out.print("buzz");
         }
 
+
     }
 
     public String fizzBuzz(int i) {
