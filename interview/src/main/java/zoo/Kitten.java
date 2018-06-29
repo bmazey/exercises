@@ -1,21 +1,14 @@
 package zoo;
 
-import static zoo.Color.BLACK;
+import static zoo.Color.ORANGE;
 import static zoo.Vertebrate.MAMMAL;
 
-public class Panther extends Cat {
+public class Kitten extends Cat{
 
-    /**
-     * This extends Cat, so we have to implement the 'purr' method here.
-     * All Cats purr!
-     * @return
-     */
-
-    //TODO - implement methods!
-    private Integer Size = 5;
+    private Integer Size = 2;
     private Integer NumberOfLegs = 4;
-    private String Call = "Roar";
-    private Color Color = BLACK;
+    private String Call = "Miao";
+    private Color Color = ORANGE;
     private Vertebrate Vertebrate = MAMMAL;
 
 
@@ -43,7 +36,6 @@ public class Panther extends Cat {
 
 }
 
-//Change into more useful version
-//Private variables are safer
-//This module could be used for almost any animal
+//This is almost like copy and paste from the Panther codes
 //06.29.18 Coding Fin ><(((º>
+
