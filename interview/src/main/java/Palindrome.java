@@ -5,9 +5,9 @@ public class Palindrome {
      * @param args
      */
 
-    public static void main(String [] args) {
+    //public static void main(String [] args) {
 
-    }
+    //}
 
     public boolean isPalindrome(String s) {
 
@@ -21,4 +21,7 @@ public class Palindrome {
 
 
     }
+     public String aTestMethod(){
+        return "this is a test method";
+     }
 }

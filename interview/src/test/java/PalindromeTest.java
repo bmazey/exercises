@@ -18,5 +18,7 @@ public class PalindromeTest {
         assertEquals(myPalindrome.isPalindrome("kitten"), false);
         assertEquals(myPalindrome.isPalindrome("milkshake"), false);
         assertEquals(myPalindrome.isPalindrome("robot"), false);
+        System.out.println(myPalindrome.aTestMethod());
     }
+
 }

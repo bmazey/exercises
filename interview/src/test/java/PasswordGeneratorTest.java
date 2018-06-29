@@ -34,9 +34,8 @@ public class PasswordGeneratorTest {
         // You should aim to randomize your passwords, knowing that there is a small chance that they may collide.
         // We will overlook incredibly unlucky collisions for now. :)
 
-        String password1 = PasswordGenerator.generatePassword();
-        String password2 = PasswordGenerator.generatePassword();
 
-        assert !password1.equals(password2);
+
+
     }
 }
