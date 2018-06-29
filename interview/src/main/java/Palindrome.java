@@ -9,14 +9,21 @@ public class Palindrome {
 
     }
     public boolean isPalindrome(String s) {
-        //string for reversing word
-        String n = "";
-        //loop for copying word into its reverse
-            for(int var = s.length() - 1; var >= 0; var--)
-                {
-                    n += s.charAt(var);
-                }
-        //returning binary value
-        return (n.equals(s));
+        String Omar = "";
+
+        for(int x = s.length() -1; x >=0; x-- ) {
+            Omar += s.charAt(x);
+        }
+
+        System.out.println("Omar: " + Omar + " s: " + s);
+
+        if (s.equals(Omar)) {
+            return true;
+        }
+        else {
+            return false;
+        }
+
+
     }
 }
