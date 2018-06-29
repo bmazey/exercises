@@ -13,6 +13,7 @@ public class Palindrome {
 
             System.out.println(i + " : " + summer.charAt(i));
 
+
         }
 
     }
