@@ -10,17 +10,17 @@ public class FizzBuzz {
     }
 
     public String fizzBuzz(int i) {
-
+        String result = "";
         if (i % 15 == 0) { //we have to check for the 15 first so that if it was a fizzbuzz it doesn't appear as a fizz!
-            System.out.println("Fizzbuzz!");
+            result = "Fizzbuzz!";
         }
         else if (i % 3 == 0) { // The "%" sign is called the "Modulo" sign, which checks the remainder after division :D
-            System.out.println("Fizz");
+            result = "Fizz";
         }
         else if (i % 5 == 0) {
-            System.out.println("Buzz");
+            result = "Buzz";
         }
-        return new String();
+        return result;
 
     }
 }
