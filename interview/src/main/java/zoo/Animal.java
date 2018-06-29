@@ -20,6 +20,6 @@ public interface Animal { // contract, you can't call new
      * Here are the enums ...
      */
     String getColor();
-    Vertebrate getVertebrate();
+    String getVertebrate();
 
 }

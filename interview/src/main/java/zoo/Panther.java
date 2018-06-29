@@ -30,7 +30,7 @@ public class Panther extends Cat {
         return "BLACK";
     }
 
-    public Vertebrate getVertebrate() {
-        return null;
+    public String getVertebrate() {
+        return "Mammal";
     }
 }

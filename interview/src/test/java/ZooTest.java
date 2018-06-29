@@ -35,9 +35,23 @@ public class ZooTest {
         assertThat(myPanther.getCall(), equalToIgnoringCase("Roar"));
     }
 
+    @Test
+    public void testPantherVertebrate() { assertThat(myPanther.getVertebrate(), equalToIgnoringCase("Mammal"));}
+
     Cat myTiger = new Tiger();
 
     @Test
     public void testTigerSize() { assertEquals(myTiger.getSize().intValue(), 4); }
 
+    @Test
+    public void testTigerVertebrate() { assertEquals(myTiger.getVertebrate(), "Mammal");}
+
+    @Test
+    public void testTigerLegs() { assertEquals(myTiger.getNumberOfLegs().intValue(), 4);}
+
+    @Test
+    public void testTigerColor() { assertEquals(myTiger.getColor(), "ORANGE");}
+
+    @Test
+    public void testTigerCall() { assertEquals(myTiger.getCall(), "Rauu");}
 }

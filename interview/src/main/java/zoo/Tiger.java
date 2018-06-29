@@ -21,7 +21,7 @@ public class Tiger extends Cat { //this is saying that Tiger is a type of cat
        return "Rauu";
     }
 
-    public Vertebrate getVertebrate() {
-       return null; // why can't I return MAMMAL?
+    public String getVertebrate() {
+       return "Mammal"; // why can't I return MAMMAL?
     }
 }
