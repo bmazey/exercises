@@ -20,6 +20,12 @@ public class Panther extends Cat {
         return this.size;
     }
 
+    public void setSize(int i) {
+
+        this.size = i;
+    }
+
+
     public Integer getNumberOfLegs() {
         return this.numberOfLegs;
     }

@@ -14,9 +14,13 @@ public class Zoo {
         //panther.size()
         //cant do panther.size() bc the size variable is private
 
-        panther1.getSize();
+        //panther1.getSize();
         //can do panther.getSize() bc getSize is a public method so you can get the value out. this also means the size cant be changed
 
+        System.out.println("panther1 size: " + panther1.getSize() + "\npanther2 size: " + panther2.getSize());
 
+        //changing panther2 size
+        panther2.setSize(7);
+        System.out.println("\npanther1 size: " + panther1.getSize() + "\npanther2 size: " + panther2.getSize());
     }
 }
