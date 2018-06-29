@@ -10,6 +10,10 @@ public class Panther extends Cat {
 
     //TODO - implement methods!
 
+    private Integer size = 5;
+    private Integer numberOfLegs = 4;
+
+
     void purr() { }
 
     public Integer getSize() {
