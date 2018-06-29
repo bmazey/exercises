@@ -26,7 +26,7 @@ public class ZooTest {
 
     @Test
     public void testPantherColor() {
-        assertThat(myPanther.getColor().name(), equalToIgnoringCase("BLACK"));
+        assertThat(myPanther.getColor(), equalToIgnoringCase("BLACK"));
     }
 
     @Test

@@ -19,7 +19,7 @@ public interface Animal {
     /**
      * Here are the enums ...
      */
-    Color getColor();
-    Vertebrate getVertebrate();
+    String getColor();
+    String getVertebrate();
 
 }
