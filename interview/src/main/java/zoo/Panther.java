@@ -20,19 +20,31 @@ public class Panther extends Cat {
         return this.size;
     }
 
-    public void setSize(int i) {
+    public void setSize(int size) {
+        if (size > 10) {
+            System.out.println("this panther is too big!");
+            this.size = 10;
+        }
 
-        this.size = i;
+        else {
+            this.size = size;
+        }
     }
 
+    public Integer getNumberOfLegs() { return this.numberOfLegs; }
 
-    public Integer getNumberOfLegs() {
-        return this.numberOfLegs;
-    }
+    public void setNumberOfLegs(int numberOfLegs) {
+        if (numberOfLegs != 4) {
+            System.out.println("a panther has 4 legs!");
+            this.numberOfLegs = 4;
+        }
 
-    public String getCall() {
-        return this.call;
+        else {
+            this.numberOfLegs = numberOfLegs;
+        }
     }
+    public String getCall() { return this.call; }
+
 
     public Color getColor() {
         return Color.BLACK;

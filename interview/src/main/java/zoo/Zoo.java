@@ -20,7 +20,13 @@ public class Zoo {
         System.out.println("panther1 size: " + panther1.getSize() + "\npanther2 size: " + panther2.getSize());
 
         //changing panther2 size
-        panther2.setSize(7);
+        panther2.setSize(11);
         System.out.println("\npanther1 size: " + panther1.getSize() + "\npanther2 size: " + panther2.getSize());
+
+        //changing panther2 legs
+        panther2.setNumberOfLegs(5);
+        System.out.println("\npanther1 number of legs: " + panther1.getNumberOfLegs() + "\npanther2 number of legs: "+ panther2.getNumberOfLegs());
+
     }
 }
+
