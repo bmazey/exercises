@@ -10,9 +10,17 @@ public class FizzBuzz {
     }
 
     public String fizzBuzz(int i) {
+        String result = "";
 
-        //TODO - implement method!
-        return new String();
+        if (i%3 == 0 && i%5==0){
+            result = "fizzbuzz";}
 
+        else if (i % 3 == 0)
+            result = "fizz";
+
+        else
+            result = "buzz";
+
+        return result;
     }
 }
