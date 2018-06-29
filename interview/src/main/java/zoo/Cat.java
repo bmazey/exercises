@@ -25,6 +25,6 @@ public abstract class Cat implements Animal {
 
     //TODO - implement methods!
 
-    abstract void purr();
+    abstract String purr();
 
 }

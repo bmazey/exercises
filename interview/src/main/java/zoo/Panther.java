@@ -10,22 +10,24 @@ public class Panther extends Cat {
 
     //TODO - implement methods!
 
-    void purr() { }
+    String purr(){
+        return "Roar";
+    }
 
     public Integer getSize() {
-        return null;
+        return 5;
     }
 
     public Integer getNumberOfLegs() {
-        return null;
+        return 4;
     }
 
     public String getCall() {
-        return null;
+        return "Roar";
     }
 
-    public Color getColor() {
-        return null;
+    public String getColor() {
+        return "BLACK";
     }
 
     public Vertebrate getVertebrate() {

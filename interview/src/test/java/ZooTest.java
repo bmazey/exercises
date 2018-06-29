@@ -1,6 +1,7 @@
 import org.junit.Test;
 import zoo.Cat;
 import zoo.Panther;
+import zoo.Tiger;
 
 import static org.hamcrest.Matchers.equalToIgnoringCase;
 import static org.junit.Assert.assertEquals;
@@ -26,11 +27,17 @@ public class ZooTest {
 
     @Test
     public void testPantherColor() {
-        assertThat(myPanther.getColor().name(), equalToIgnoringCase("BLACK"));
+        assertThat(myPanther.getColor(), equalToIgnoringCase("BLACK"));
     }
 
     @Test
     public void testPantherCall() {
         assertThat(myPanther.getCall(), equalToIgnoringCase("Roar"));
     }
+
+    Cat myTiger = new Tiger();
+
+    @Test
+    public void testTigerSize() { assertEquals(myTiger.getSize().intValue(), 4); }
+
 }

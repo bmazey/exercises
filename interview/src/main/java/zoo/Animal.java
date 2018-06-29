@@ -1,6 +1,6 @@
 package zoo;
 
-public interface Animal {
+public interface Animal { // contract, you can't call new
 
     /**
      * Note that because we're working within an interface, our boolean 'isAnimal' is implicitly final!
@@ -19,7 +19,7 @@ public interface Animal {
     /**
      * Here are the enums ...
      */
-    Color getColor();
+    String getColor();
     Vertebrate getVertebrate();
 
 }

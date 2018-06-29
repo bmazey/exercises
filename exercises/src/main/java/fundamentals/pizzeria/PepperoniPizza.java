@@ -47,5 +47,8 @@ public class PepperoniPizza {
         System.out.println("Here's the toppings for MyPizza: " + Arrays.toString(MyPizza.toppings));
 
         System.out.println("MyPizza slices: " + MyPizza.numberOfSlices);
+
+        if (MyPizza.size == Pizza.size) System.out.println("Same sizes:)");
+        else System.out.println("oh... not the same size :(");
     }
 }
