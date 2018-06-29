@@ -38,6 +38,7 @@ public class PasswordGenerator {
 
         password += symbols.charAt(r.nextInt(symbols.length() - 1));
 
+
         return password;
         }
 }
