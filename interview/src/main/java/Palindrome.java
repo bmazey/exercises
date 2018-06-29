@@ -1,5 +1,3 @@
-import java.util.scanner;
-
 public class Palindrome {
 
     /**
@@ -10,19 +8,11 @@ public class Palindrome {
     public static void main(String [] args) {
 
     }
+
     public boolean isPalindrome(String s) {
-        String s, reverse = ""; // Objects
-        Scanner in = new Scanner(System.in); // user input
 
-        System.out.println("Enter a string to check if it is a palindrome"); // asking user for a word :P
-        s = in.nextLine(); // the word entered by the user
+        //TODO - implement method!
 
-
-            for(int var = s.length() - 1; var >= 0; var--)
-                {
-                    reverse += s.charAt(var);
-                }
-        //returning binary value
-        return (reverse.equals(s));
+        return true;
     }
 }
