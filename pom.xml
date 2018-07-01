@@ -15,6 +15,7 @@
     <modules>
         <module>exercises</module>
         <module>interview</module>
+        <module>market</module>
     </modules>
 
 
