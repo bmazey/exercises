@@ -8,6 +8,11 @@ import java.util.Map;
 
 public class BtcPrice {
 
+    /**
+     * Look for usage examples at ...
+     * https://github.com/nyg/kraken-api-java
+     */
+
     private KrakenApi api;
 
     public BtcPrice() {
