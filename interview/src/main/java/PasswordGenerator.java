@@ -14,32 +14,29 @@ public class PasswordGenerator {
         Random r = new Random();
 
         String password = "";
-
         String alphabet = "abcdefghijklmnopqrstuvwxyz";
         String numbers = "0123456789";
         String symbols = "!@#$%^&*";
-
-
-        for (int i = 0; i < 5; i++) {
-
-            //System.out.println(i + " : " + alphabet.charAt(i));
-
-            password += alphabet.charAt(r.nextInt(alphabet.length()-1));
-
+        String[] allChars;
+        for (int a = 0;a < alphabet.length();a++) {
+            allChars[a] = String.valueOf();
+        }
+        for (int n = alphabet.length();n < (alphabet.length() + numbers.length());n++) {
+            int nn = 0;
+            allChars[n] = numbers.charAt(nn);
+            nn++;
+        }
+        for (int s = (alphabet.length()+numbers.length());s < (alphabet.length()+numbers.length()+symbols.length());s++)  {
+            int ss = 0;
+            allChars[s] = symbols.charAt(ss);
+            ss++;
         }
 
-        for (int i = 0; i < 4; i++) {
-
-            //System.out.println(i + " : " + numbers.charAt(i));
-
-            password += numbers.charAt(r.nextInt(numbers.length() - 1));
-
-        }
-
-        password += symbols.charAt(r.nextInt(symbols.length() - 1));
+        int Low = 0;
+        int High = 100;
+        int Result = r.nextInt(High-Low) + Low;
 
 
-        //test
-        return password;
+        System.out.println(allChars.length);
         }
 }
