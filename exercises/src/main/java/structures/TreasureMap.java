@@ -11,7 +11,8 @@ public class TreasureMap {
     public Map<String, String> createTreasureMap() {
 
         //TODO - implement this method!
-
+        HashMap<String,String> TreasureMap = new HashMap();
+        TreasureMap.put("beach","sandy shores");
         return new HashMap<String, String>();
     }
 }
