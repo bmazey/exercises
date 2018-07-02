@@ -11,7 +11,13 @@ public class TreasureMap {
     public Map<String, String> createTreasureMap() {
 
         //TODO - implement this method!
+        Map<String, String> mappp = new HashMap<String, String>();
+        mappp.put("beach", "sandy shores");
+        mappp.put("coast","ocean reef");
+        mappp.put("volcano","hot lava");
+        mappp.put("x","marks the spot");
 
-        return new HashMap<String, String>();
+
+        return mappp;
     }
 }
