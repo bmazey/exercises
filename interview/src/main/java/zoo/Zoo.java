@@ -15,8 +15,8 @@ public class Zoo {
 
         Owl snowyOwl = new Owl();
 
-        snowyOwl.setSize(1000);
-        snowyOwl.setNumberOfLegs(1);
+        snowyOwl.setSize(5);
+        snowyOwl.setNumberOfLegs(2);
         snowyOwl.setCall("Hoot");
     }
 }
