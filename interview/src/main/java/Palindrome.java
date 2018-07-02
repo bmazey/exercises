@@ -5,23 +5,32 @@ public class Palindrome {
      * @param args
      */
 
-    // use n/2 so that the middle letter is not counted --> it does not have a matching letter
+   public static void main(String [] args) {
 
-    public static void main(String [] args) {
+        String summer = "summer2018";
+
+        for (int i = 0; i < summer.length(); i++) {
+
+            System.out.println(i + " : " + summer.charAt(i));
+
+        }
 
     }
 
     public boolean isPalindrome(String s) {
 
-    int n = (s.length());
-    for(int i = 0; i < (n/2); ++i) {
-        if (s.charAt(i) != s.charAt(n - i - 1)) {
-            return false;
+
+        boolean isPalindrome = true;
+
+        for (int i = 0; i < s.length(); i++) {
+
+
+            if (s.charAt(i) != s.charAt(s.length()-1-i)){
+                isPalindrome = false;
+            }
+
         }
-    }
 
-        //TODO - implement method!
-
-        return true;
+        return isPalindrome;
     }
 }

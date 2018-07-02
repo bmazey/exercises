@@ -11,23 +11,35 @@ public class PasswordGenerator {
 
     public static String generatePassword() {
 
-        String Password = "";
-        String Alphabet = "abcdefghijklmnopqrstuvwxyz";
-        Random R = new Random();
-        String symbol = "!@#$%^&*";
+        Random r = new Random();
+
+        String password = "";
+
+        String alphabet = "abcdefghijklmnopqrstuvwxyz";
+        String numbers = "0123456789";
+        String symbols = "!@#$%^&*";
+
 
         for (int i = 0; i < 5; i++) {
-            Password += Alphabet.charAt(R.nextInt(25));
+
+            //System.out.println(i + " : " + alphabet.charAt(i));
+
+            password += alphabet.charAt(r.nextInt(alphabet.length()-1));
 
         }
 
         for (int i = 0; i < 4; i++) {
-            Password += (R.nextInt(9));
+
+            //System.out.println(i + " : " + numbers.charAt(i));
+
+            password += numbers.charAt(r.nextInt(numbers.length() - 1));
+
         }
 
-        Password += symbol.charAt(R.nextInt(8));
-       //TODO - implement method!
+        password += symbols.charAt(r.nextInt(symbols.length() - 1));
 
-        return Password;
-    }
+
+        //test
+        return password;
+        }
 }
