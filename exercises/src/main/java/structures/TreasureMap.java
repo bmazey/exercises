@@ -5,13 +5,19 @@ import java.util.Map;
 
 public class TreasureMap {
     public static void main (String[] args) {
-
     }
 
     public Map<String, String> createTreasureMap() {
 
+        //TreasureMap myMap = new TreasureMap();
+        Map<String, String> treasureMap = new HashMap<String, String>();
+
+        treasureMap.put("beach", "sandy shores");
+        treasureMap.put("coast", "ocean reef");
+        treasureMap.put("volcano", "hot lava");
+        treasureMap.put("x", "marks the spot");
         //TODO - implement this method!
 
-        return new HashMap<String, String>();
+        return treasureMap;
     }
 }
