@@ -20,7 +20,7 @@ public class PasswordGenerator {
         String num = "0123456789";
         String symb = "!?@#$%";
 
-
+// test comment
         for (int i =0; i <5; i++) {
             int x = rand.nextInt(letter.length() - 1);
 
