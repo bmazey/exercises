@@ -10,8 +10,8 @@ public class TreasureMap {
 
     public Map<String, String> createTreasureMap() {
 
-        //TODO - implement this method!
+        Map<String, String> tm = new HashMap();
 
-        return new HashMap<String, String>();
+        return tm;
     }
 }
