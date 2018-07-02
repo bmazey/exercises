@@ -10,8 +10,15 @@ public class GroceryList {
 
     public List<String> createGroceryList() {
 
-        //TODO - implement this method!
+        //Adding strings into list
+        ArrayList <String> GroceryList = new ArrayList();
 
-        return new ArrayList<String>();
+        GroceryList.add("milk");
+        GroceryList.add("eggs");
+        GroceryList.add("seltzer");
+        GroceryList.add("cheese");
+        GroceryList.add("seltzer");
+
+        return GroceryList;
     }
 }
