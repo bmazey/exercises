@@ -2,26 +2,35 @@ public class Palindrome {
 
     /**
      * Welcome to the Interview Challenge!
-     *
      * @param args
      */
 
-    public static void main(String[] args) {
-// something in the string
+   public static void main(String [] args) {
+
+        String summer = "summer2018";
+
+        for (int i = 0; i < summer.length(); i++) {
+
+            System.out.println(i + " : " + summer.charAt(i));
+
+        }
+
     }
 
     public boolean isPalindrome(String s) {
-        //TODO - implement method!
 
 
-        String reverse = new StringBuffer(s).reverse().toString();
+        boolean isPalindrome = true;
 
-        return s.equals(reverse);
+        for (int i = 0; i < s.length(); i++) {
 
+
+            if (s.charAt(i) != s.charAt(s.length()-1-i)){
+                isPalindrome = false;
+            }
+
+        }
+
+        return isPalindrome;
     }
-
-
-
 }
-
-

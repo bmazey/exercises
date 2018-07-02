@@ -13,7 +13,9 @@ public abstract class Cat implements Animal {
      * Unlike an interface, variables within this class are not necessarily final.
      */
 
-    //TODO - implement variables!
+    boolean isAnimal = true;
+    int size = 1;
+    int legs = 4;
 
 
 
@@ -28,5 +30,30 @@ public abstract class Cat implements Animal {
     //TODO - implement methods!
 
     abstract void purr();
+    public Integer getSize()
+    {
+        return size;
+    }
+    public Integer getNumberOfLegs()
+    {
+        return legs;
+    }
+
+    public String getCall()
+    {
+        return "Ruff";
+    }
+
+    /**
+     * Here are the enums ...
+     */
+    public Color getColor()
+    {
+        return Color.GREEN;
+    }
+    public Vertebrate getVertebrate()
+    {
+        return Vertebrate.MAMMAL;
+    }
 
 }
