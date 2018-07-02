@@ -7,20 +7,32 @@ public class FizzBuzz {
 
     public static void main(String [] args) {
 
+        String isFizzBuzz = "";
+
+        int i = 15;
+
+        if(i % 3 == 0){
+            System.out.println("fizz");
+        }
+        if(i % 5 == 0){
+            System.out.print("buzz");
+        }
+
     }
 
     public String fizzBuzz(int i) {
 
-        if (i % 15 == 0) {
-            System.out.println("Fizzbuzz!");
+        String isFizzBuzz = "";
+
+        if(i % 3 == 0){
+            isFizzBuzz += "fizz";
         }
-        else if (i % 3 == 0) {
-            System.out.println("Fizz");
+        if(i % 5 == 0){
+            isFizzBuzz += "buzz";
         }
-        else if (i % 5 == 0) {
-            System.out.println("Buzz");
-        }
-        return new String();
+
+        //TODO - implement method!
+        return isFizzBuzz;
 
     }
 }

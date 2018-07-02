@@ -5,18 +5,32 @@ public class Palindrome {
      * @param args
      */
 
-    public static void main(String [] args) {
+   public static void main(String [] args) {
+
+        String summer = "summer2018";
+
+        for (int i = 0; i < summer.length(); i++) {
+
+            System.out.println(i + " : " + summer.charAt(i));
+
+        }
 
     }
+
     public boolean isPalindrome(String s) {
-        //string for reversing word
-        String n = "";
-        //loop for copying word into its reverse
-            for(int var = s.length() - 1; var >= 0; var--)
-                {
-                    n += s.charAt(var);
-                }
-        //returning binary value
-        return (n.equals(s));
+
+
+        boolean isPalindrome = true;
+
+        for (int i = 0; i < s.length(); i++) {
+
+
+            if (s.charAt(i) != s.charAt(s.length()-1-i)){
+                isPalindrome = false;
+            }
+
+        }
+
+        return isPalindrome;
     }
 }
