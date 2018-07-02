@@ -7,6 +7,7 @@ public class PasswordGenerator {
         // for testing!
         System.out.println("password: " + generatePassword());
 
+
     }
 
     public static String generatePassword() {
@@ -32,5 +33,7 @@ public class PasswordGenerator {
        //TODO - implement method!
 
         return s;
+
     }
+
 }
