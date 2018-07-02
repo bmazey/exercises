@@ -39,6 +39,8 @@ public class FizzBuzz {
 
         String isFizzBuzz = "";
 
+        int i = 0;
+
         if(i % 3 == 0){
             isFizzBuzz += "fizz";
         }

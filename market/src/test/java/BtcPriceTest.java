@@ -7,7 +7,7 @@ import java.io.IOException;
 
 import static org.junit.Assert.assertEquals;
 
-public class BtcPriceTest {
+public classBtcPriceTest {
 
     BtcPrice btc = new BtcPrice();
     ObjectMapper mapper = new ObjectMapper();
