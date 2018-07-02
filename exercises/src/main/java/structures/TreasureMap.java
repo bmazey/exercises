@@ -10,8 +10,19 @@ public class TreasureMap {
 
     public Map<String, String> createTreasureMap() {
 
-        //TODO - implement this method!
+        Map <String, String>TreasureMap = new HashMap();
 
-        return new HashMap<String, String>();
+        //Putting keys and values in
+        TreasureMap.put ("beach", "sandy shores");
+        TreasureMap.put ("coast", "ocean reef");
+        TreasureMap.put ("volcano", "hot lava");
+        TreasureMap.put ("x", "marks the spot");
+
+        //Testing
+        System.out.println (TreasureMap.get("beach"));
+
+        return TreasureMap;
     }
 }
+
+//07.02.18 Coding Fin ><(((('>
