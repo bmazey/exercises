@@ -14,4 +14,17 @@ public class TreasureMap {
 
         return tm;
     }
+    public String get(String input)
+    {
+        String output = new String();
+        if(input.contentEquals("beach"))
+            output = "sandy shores";
+        if(input.contentEquals("coast"))
+            output = "ocean reef";
+        if(input.contentEquals("volcano"))
+            output = "hot lava";
+        if(input.contentEquals("x"))
+            output = "marks the spot";
+        return output;
+    }
 }
