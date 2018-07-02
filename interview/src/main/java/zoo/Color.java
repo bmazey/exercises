@@ -10,5 +10,7 @@ public enum Color {
     VIOLET,
     BROWN,
     BLACK,
+    MAJESTICORANGEWITHGLORIOUSBLACKSTRIPES,
     GOLD;
+
 }

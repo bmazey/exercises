@@ -1,13 +1,22 @@
 public class VerifyInstall {
 
-    public static void main (String [] args) {
 
-        /**
-         * Run this program to validate that your IDE is working.
-         * You should be able to see a message appear in the console below without any errors.
-         */
 
-        System.out.println("Looks great! Don't forget to send your github username to b.mazey@nyu.edu!");
 
+
+
+        public String bark() {
+            String dogSoung = "bark";
+            return dogSound;
+        }
+
+        public int getnumberoflegs()
+                return 4:
+
+         public static void main (String [] args) {
+            Dog spot = new Dog();
+            System.out.println("value of s: " +spot.bark() + " number of legs: " + spot.getnumberoflegs());
+         }
     }
-}
+
+    System.System.Ststem....sTetem.Stetremys.

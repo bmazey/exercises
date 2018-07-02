@@ -14,6 +14,7 @@ public interface Animal {
     Integer getSize();
     Integer getNumberOfLegs();
 
+
     String getCall();
 
     /**

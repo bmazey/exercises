@@ -8,7 +8,15 @@ public class Zoo {
      */
 
     public static void main(String [] args) {
-        Cat panther = new Panther();
-        panther.purr();
+        Panther panther1 = new Panther();
+        Panther panther2 = new Panther();
+
+
+
+        Owl snowyOwl = new Owl();
+
+        snowyOwl.setSize(1000);
+        snowyOwl.setNumberOfLegs(1);
+        snowyOwl.setCall("Hoot");
     }
 }

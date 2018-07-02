@@ -5,23 +5,50 @@ public class Panther extends Cat {
     /**
      * This extends Cat, so we have to implement the 'purr' method here.
      * All Cats purr!
+     *
      * @return
      */
 
-    String call = "ROAR";
 
-    void purr() { }
+    private String call = "ROAR";
+    private int size = 5;
+    private int numberOfLegs = 4;
+
+    void purr() {
+    }
 
     public Integer getSize() {
-        return 5;
+        return this.size;
     }
+
+    public void setSize(int s)
+
+    {
+        this.size = s;{
+        if (size > 100)
+        {System.out.println("Your panther was much too large and has collapsed into a black hole.");
+            this.size = 0;}
+         else
+            this.size = s;
+            System.out.println("Your bird is of a standard size.");
+        }
+    }
+
 
     public Integer getNumberOfLegs() {
-        return 4;
+        return this.numberOfLegs;
     }
 
+    public void setNumberOfLegs(int l)
+
+    {
+        this.numberOfLegs = 4;
+        if (numberOfLegs == 3) {
+            this.numberOfLegs = l;
+        }
+    }
     public String getCall() {
-        return call;
+        return this.call;
     }
 
     public Color getColor() {
