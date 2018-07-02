@@ -11,12 +11,16 @@ public class TreasureMap {
     public Map<String, String> createTreasureMap() {
 
         Map<String, String> tm = new HashMap();
-
+tm.put("beach", "sandy shores");
+tm.put("coast", "ocean reef");
+tm.put("volcano", "hot lava");
+tm.put("x", "marks the spot");
         return tm;
     }
-    public String get(String input)
+
+    /*public String get(String input)
     {
-        String output = new String();
+        String output = "";
         if(input.contentEquals("beach"))
             output = "sandy shores";
         if(input.contentEquals("coast"))
@@ -26,5 +30,6 @@ public class TreasureMap {
         if(input.contentEquals("x"))
             output = "marks the spot";
         return output;
-    }
+    }*/
 }
+
