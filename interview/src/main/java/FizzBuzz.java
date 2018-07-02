@@ -7,20 +7,12 @@ public class FizzBuzz {
 
     public static void main(String [] args) {
 
-
-
     }
 
     public String fizzBuzz(int i) {
 
-        String result = "";
+        //TODO - implement method!
+        return new String();
 
-            if (i % 3 == 0)
-                result += "fizz";
-
-            if (i % 5 == 0)
-                result += "buzz";
-
-            return result;
     }
 }

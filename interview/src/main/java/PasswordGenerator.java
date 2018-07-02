@@ -10,23 +10,36 @@ public class PasswordGenerator {
     }
 
     public static String generatePassword() {
-        String passwordGenerator = "";
+
+        Random r = new Random();
+
+        String password = "";
+
         String alphabet = "abcdefghijklmnopqrstuvwxyz";
-        String symbol = "!@#$%^&*()_-";
-        Random randInt = new Random();
+        String numbers = "0123456789";
+        String symbols = "!@#$%^&*";
 
-        for(int i = 0; i < 5; i++) {
-            passwordGenerator += alphabet.charAt(randInt.nextInt(25));
-        }
 
-        for(int k = 0; k < 4; k++) {
-            passwordGenerator += randInt.nextInt(9);
-        }
+        for (int i = 0; i < 5; i++) {
 
-        passwordGenerator += symbol.charAt(randInt.nextInt(11));
+            //System.out.println(i + " : " + alphabet.charAt(i));
 
-        return passwordGenerator;
+            password += alphabet.charAt(r.nextInt(alphabet.length()-1));
 
         }
 
+        for (int i = 0; i < 4; i++) {
+
+            //System.out.println(i + " : " + numbers.charAt(i));
+
+            password += numbers.charAt(r.nextInt(numbers.length() - 1));
+
+        }
+
+        password += symbols.charAt(r.nextInt(symbols.length() - 1));
+
+
+        //test
+        return password;
+        }
 }
