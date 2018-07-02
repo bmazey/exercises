@@ -15,6 +15,8 @@ public abstract class Cat implements Animal {
 
     //TODO - implement variables!
 
+
+
     /**
      * The method below is an abstract method that is specific to Cat - it's not specified in the Animal interface!
      * Practically speaking, this means that any class that extends Cat needs to provide an implementation for this
