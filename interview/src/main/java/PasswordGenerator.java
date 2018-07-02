@@ -29,7 +29,7 @@ public class PasswordGenerator {
             password += allChars[Result];
         }
 
-
+       // BTW the code doesn't pass the test because of the .isLetter and .isDigit , I thought this would be more secure
 
 
         return password;
