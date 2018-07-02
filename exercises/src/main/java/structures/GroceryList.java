@@ -11,7 +11,12 @@ public class GroceryList {
     public List<String> createGroceryList() {
 
         //TODO - implement this method!
-
-        return new ArrayList<String>();
+List<String> gl = new ArrayList<String>();
+gl.add("milk");
+gl.add("eggs");
+gl.add("seltzer");
+gl.add("cheese");
+gl.add("seltzer");
+        return gl;
     }
 }

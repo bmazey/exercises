@@ -8,7 +8,7 @@ public class FamilyTree {
 
     public TreeNode<String> createFamilyTree() {
 
-        //TODO - implement this method!
+        TreeNode<String> ft = new TreeNode<String>()
 
         return new TreeNode<String>("root");
     }
