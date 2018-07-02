@@ -10,7 +10,7 @@ import static org.hamcrest.core.IsEqual.equalTo;
 
 public class GroceryListTest {
 
-     private GroceryList myGroceryList = new GroceryList();
+    private GroceryList myGroceryList = new GroceryList();
     List<String> groceryList = myGroceryList.createGroceryList();
 
     @Test
