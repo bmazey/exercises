@@ -1,7 +1,7 @@
 package fundamentals;
 
 public class StringsExample {
-}
+
 
 
     public static void main (String[] args) {
@@ -41,7 +41,7 @@ public class StringsExample {
 
         String s4 = s2 + s3;
 
-        System.out.printIn("here's the value of s1: " + s1);
-        System.out.printIn("here's the value of ")
+        System.out.println("here's the value of s1: " + s1);
+        System.out.println("here's the value of ");
     }
 }
