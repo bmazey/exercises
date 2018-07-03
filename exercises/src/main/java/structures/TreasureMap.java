@@ -16,6 +16,7 @@ public class TreasureMap {
         mapTreasureMap.put("volcano", "hot lava");
         mapTreasureMap.put("x", "marks the spot");
 
+
         System.out.println(mapTreasureMap);
 
         return mapTreasureMap;
