@@ -10,9 +10,14 @@ public class MovieQueue {
     }
 
     public Queue<String> createMovieQueue() {
+        LinkedList<String> Movie= new LinkedList<String>();
+        Movie.add("Leonardo");
+        Movie.add("Donatello");
+        Movie.add("Raphael");
+        Movie.add("Michelangelo");
 
         //TODO - implement this method!
 
-        return new LinkedList<String>();
+        return Movie;
     }
 }
