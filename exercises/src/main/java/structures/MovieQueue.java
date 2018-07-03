@@ -11,8 +11,14 @@ public class MovieQueue {
 
     public Queue<String> createMovieQueue() {
 
+        Queue<String> queueMyQueue = new LinkedList<>();
+        queueMyQueue.add("Leonardo");
+        queueMyQueue.add("Donatello");
+        queueMyQueue.add("Raphael");
+        queueMyQueue.add("Michelangelo");
+
         //TODO - implement this method!
 
-        return new LinkedList<String>();
+        return queueMyQueue;
     }
 }
