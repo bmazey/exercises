@@ -6,11 +6,14 @@ import java.util.Map;
 public class TreasureMap {
     public static void main (String[] args) {
 
+
     }
 
-    public Map<String, String> createTreasureMap() {
+    public Map<String,String> createTreasureMap(){
+    HashMap<String, String> TreasureMap = new HashMap();
+    TreasureMap.put("beach","sandy shores");
 
-        //TODO - implement this method!
+
 
         return new HashMap<String, String>();
     }
