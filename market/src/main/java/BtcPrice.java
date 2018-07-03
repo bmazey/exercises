@@ -22,8 +22,14 @@ public class BtcPrice {
     }
 
     public String getBtcUsdPriceResponse() throws IOException {
+
+        Map<String, String> input = new HashMap<>();
+        input.put("pair", "XBTUSD");
+       String response = api.queryPublic(KrakenApi.Method.TICKER, input);
+
+       System.out.println(response);
         //TODO - implement this method!
-        return new String();
+        return response ;
     }
 
     public Ticker getBtcUsdTicker() throws IOException {
