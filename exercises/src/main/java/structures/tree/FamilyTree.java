@@ -18,7 +18,6 @@ public class FamilyTree {
         TreeNode <String> GeorgeMichael = Michael.addChild("George Michael");
         TreeNode <String> Maeby = Lindsay.addChild("Maeby");
 
-
         return Grandma;
     }
 }
