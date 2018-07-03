@@ -8,7 +8,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalToIgnoringCase;
 import static org.hamcrest.core.IsEqual.equalTo;
 
-public class MovieQueueTest {
+public class    MovieQueueTest {
 
     private MovieQueue myMovieQueue = new MovieQueue();
     Queue<String> myQueue = myMovieQueue.createMovieQueue();

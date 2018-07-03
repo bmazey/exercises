@@ -8,23 +8,26 @@ public class Panther extends Cat {
      * @return
      */
 
+    //TODO - implement methods!
+    //int legs = 4;
+
     private Integer size = 5;
     private Integer numberOfLegs = 4;
     private String call = "Roar";
-    private String color = "BLACK";
-    private String vertebrate = "true";
 
-    void purr() { }
+    void purr() {System.out.println("Purr"); }
 
-    public Integer getSize() {return this.size;}
+    public Integer getSize() {
+        return this.size;
+    }
 
-    public void setSize(int i) {
-        if (i > 10) {
-            System.out.println("Panthers can't be bigger than 10!");
-            this.size = 5;
+    public void setSize(int size) {
+        if (size > 10) {
+            System.out.println("this panther is too big!");
+            this.size = 10;
         }
         else {
-            this.size = i;
+            this.size = size;
         }
     }
 
@@ -32,14 +35,15 @@ public class Panther extends Cat {
         return this.numberOfLegs;
     }
 
-    public void setNumberOfLegs(int i){
-        this.numberOfLegs = i;
+    public String getCall() {
+        return this.call;
     }
 
-    public String getCall() {return this.call;}
+    public Color getColor() {
+        return Color.BLACK;
+    }
 
-    public String getColor() {return this.color;}
-
-    public String getVertebrate() {return this.vertebrate;
+    public Vertebrate getVertebrate() {
+        return Vertebrate.MAMMAL;
     }
 }
