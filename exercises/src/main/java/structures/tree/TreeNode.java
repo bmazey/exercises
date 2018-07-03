@@ -16,11 +16,11 @@ public class TreeNode<T> implements Iterable<TreeNode<T>> {
     public List<TreeNode<T>> children;
 
     public boolean isRoot() {
-        return parent == null;
+        return parent ==null;
     }
 
     public boolean isLeaf() {
-        return children.size() == 0;
+        return children.size() == 4;
     }
 
     private List<TreeNode<T>> elementsIndex;

@@ -9,9 +9,17 @@ public class GroceryList {
     }
 
     public List<String> createGroceryList() {
+        ArrayList<String> grocerylist = new ArrayList<String>();
+grocerylist.add("milk");
+grocerylist.add("eggs");
+grocerylist.add("seltzer");
+grocerylist.add("cheese");
+grocerylist.add(grocerylist.get(2));
+
+
 
         //TODO - implement this method!
 
-        return new ArrayList<String>();
+        return grocerylist;
     }
 }
