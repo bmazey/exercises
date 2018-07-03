@@ -9,9 +9,14 @@ public class TreasureMap {
     }
 
     public Map<String, String> createTreasureMap() {
+        HashMap Omar = new HashMap();
+        Omar.put("beach","sandy shores");
+        Omar.put("coast","ocean reef");
+        Omar.put("volcano","hot lava");
+        Omar.put("x","marks the spot");
 
         //TODO - implement this method!
 
-        return new HashMap<String, String>();
+        return Omar;
     }
 }
