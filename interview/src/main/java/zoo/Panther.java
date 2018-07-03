@@ -9,26 +9,41 @@ public class Panther extends Cat {
      */
 
     //TODO - implement methods!
+    //int legs = 4;
 
-    void purr() { }
+    private Integer size = 5;
+    private Integer numberOfLegs = 4;
+    private String call = "Roar";
+
+    void purr() {System.out.println("Purr"); }
 
     public Integer getSize() {
-        return null;
+        return this.size;
+    }
+
+    public void setSize(int size) {
+        if (size > 10) {
+            System.out.println("this panther is too big!");
+            this.size = 10;
+        }
+        else {
+            this.size = size;
+        }
     }
 
     public Integer getNumberOfLegs() {
-        return null;
+        return this.numberOfLegs;
     }
 
     public String getCall() {
-        return null;
+        return this.call;
     }
 
     public Color getColor() {
-        return null;
+        return Color.BLACK;
     }
 
     public Vertebrate getVertebrate() {
-        return null;
+        return Vertebrate.MAMMAL;
     }
 }
