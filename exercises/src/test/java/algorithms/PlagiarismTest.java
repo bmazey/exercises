@@ -55,4 +55,23 @@ public class PlagiarismTest {
         assertThat(matches.size(), equalTo(1));
         assertThat(matches.get(0), equalTo(499));
     }
+
+    @Test
+    public void assertIsAgainPlagiarism(){
+        String pat = "through me among the people that are lost.";
+        String txt = "Through me one goes into the town of woe," +
+                "through me one goes into eternal pain," +
+                "through me among the people that are lost." +
+                "Justice inspired my high exalted Maker;" +
+                "I was created by the Might divine," +
+                "the highest Wisdom and the primal Love." +
+                "Before me there was naught created, save" +
+                "eternal things, and I eternal last;" +
+                "all hope abandon, ye that enter here!";
+
+        ArrayList<Integer> matches = RabinKarp.search(pat, txt, 101);
+        assertThat(matches.size(), equalTo(1));
+        assertThat(matches.get(0), equalTo(79));
+        assertThat(matches.isEmpty(), equalTo(false));
+    }
 }
