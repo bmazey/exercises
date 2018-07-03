@@ -37,6 +37,28 @@ public class RabinKarp {
         // Slide the pattern over text one by one
         for (i = 0; i <= N - M; i++)
         {
+            if (p==t)
+            {
+                for (j=0; j<M; j++)
+                {
+                    if (txt.charAt(i+j) != pat.charAt(j))
+                        break;
+                }
+
+                if (j == M) {
+                    System.out.println("Pattern found at index %d" + i);
+                    matches.add(i);
+                }
+
+            }
+
+            if (i < N-M)
+            {
+                t = (d*(t - txt.charAt(i)*h) + txt.charAt(i+M))%q;
+                if (t<0)
+                    t = (t + q);
+
+            }
 
             // Check the hash values of current window of text
             // and pattern. If the hash values match then only
