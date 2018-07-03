@@ -8,10 +8,18 @@ public class TreasureMap {
 
     }
 
-    public Map<String, String> createTreasureMap() {
 
+
+    public Map <String, String> createTreasureMap() {
+        HashMap<String,String > myMap = new HashMap<String, String>();
         //TODO - implement this method!
 
-        return new HashMap<String, String>();
+             myMap.put("beach","sandy shores");
+             myMap.put("coast","ocean reef");
+             myMap.put("volcano","hot lava");
+             myMap.put("x","marks the spot");
+
+
+        return myMap;
     }
 }

@@ -11,7 +11,18 @@ public class GroceryList {
     public List<String> createGroceryList() {
 
         //TODO - implement this method!
+    List<String> grocerylist = new ArrayList<String>();
+    grocerylist.add("milk");
+    grocerylist.add("eggs");
+    grocerylist.add("seltzer");
+    grocerylist.add("cheese");
+    grocerylist.add("seltzer");
 
-        return new ArrayList<String>();
+        return grocerylist;
+
+
     }
 }
+
+
+//can't create an new list <String>() so create an ArrayList<String> ()
