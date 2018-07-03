@@ -7,9 +7,15 @@ public class FamilyTree {
     }
 
     public TreeNode<String> createFamilyTree() {
+        TreeNode<String> root = new TreeNode<String>("Lucille"); // The parent
+        TreeNode<String> FirstChild = root.addChild ("George Oscar");
+        TreeNode<String> SecondChild = root.addChild ("Michael");
+        TreeNode<String> ThirdChild = root.addChild ("Lindsay");
+        TreeNode<String> FourthChild = root.addChild ("Buster");
 
-        //TODO - implement this method!
+        TreeNode<String> Grandson = SecondChild.addChild ("George Michael");
+        TreeNode<String> Granddaughter = ThirdChild.addChild ("Maeby");
 
-        return new TreeNode<String>("root");
+        return root;
     }
 }
