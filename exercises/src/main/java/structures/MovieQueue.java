@@ -17,10 +17,6 @@ public class MovieQueue {
         queueMyQueue.add("Raphael");
         queueMyQueue.add("Michelangelo");
 
-        //TODO - implement this method!
-
-        //test
-
         return queueMyQueue;
     }
 }
