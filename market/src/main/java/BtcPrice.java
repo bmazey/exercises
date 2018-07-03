@@ -33,6 +33,8 @@ public class BtcPrice {
     }
 
     public Ticker getBtcUsdTicker() throws IOException {
+
+
         //TODO - implement this method!
         return new Ticker();
     }
@@ -43,8 +45,13 @@ public class BtcPrice {
     }
 
     public String getBtcCadPriceResponse() throws IOException {
+        Map<String, String> input = new HashMap<>();
+        input.put("pair", "XBTCAD");
+        String response = api.queryPublic(KrakenApi.Method.TICKER, input);
+
+        System.out.println(response);
         //TODO - implement this method!
-        return new String();
+        return response ;
     }
 
     public Ticker getBtcCadTicker() throws IOException {
@@ -58,8 +65,13 @@ public class BtcPrice {
     }
 
     public String getBtcJpyPriceResponse() throws IOException {
+        Map<String, String> input = new HashMap<>();
+        input.put("pair", "XBTJPY");
+        String response = api.queryPublic(KrakenApi.Method.TICKER, input);
+
+        System.out.println(response);
         //TODO - implement this method!
-        return new String();
+        return response ;
     }
 
     public Ticker getBtcJpyTicker() throws IOException {
