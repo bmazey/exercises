@@ -9,9 +9,14 @@ public class GroceryList {
     }
 
     public List<String> createGroceryList() {
-
+        List<String> Panda = new ArrayList<String>();
+        Panda.add("milk");
+        Panda.add("eggs");
+        Panda.add("seltzer");
+        Panda.add("cheese");
+        Panda.add("seltzer");
         //TODO - implement this method!
 
-        return new ArrayList<String>();
+        return Panda;
     }
 }
