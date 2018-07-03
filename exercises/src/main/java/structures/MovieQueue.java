@@ -13,6 +13,13 @@ public class MovieQueue {
 
         //TODO - implement this method!
 
-        return new LinkedList<String>();
+        LinkedList<String> Movie = new LinkedList<String>();
+        Movie.add("Leonardo");
+        Movie.add("Donatello");
+        Movie.add("Raphael");
+        Movie.add("Michelangelo");
+
+
+        return Movie;
     }
 }
