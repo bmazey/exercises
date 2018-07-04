@@ -105,7 +105,7 @@ public class EthPrice {
         Ticker obj = mapper.readValue(new URL("https://api.kraken.com/0/public/Ticker?pair=ETHJPY"), Ticker.class);
         String price = obj.getResult().getPair().getO();
 
-        //TODO - implement this method!
+
         return price;
     }
 
