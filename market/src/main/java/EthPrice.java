@@ -22,6 +22,9 @@ public class EthPrice {
     }
 
     public String getEthUsdPriceResponse() throws IOException {
+
+
+
         //TODO - implement this method!
         return new String();
     }

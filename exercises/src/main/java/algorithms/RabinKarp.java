@@ -1,7 +1,6 @@
 package algorithms;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class RabinKarp {
     // d is the number of characters in the input alphabet
@@ -11,16 +10,15 @@ public class RabinKarp {
         txt -> text
         q -> A prime number
     */
-    public static ArrayList<Integer> search(String pat, String txt, int q) {
+    static ArrayList<Integer> search(String pat, String txt, int q)
+    {
+        ArrayList<Integer> matches = new ArrayList<Integer>();
         int M = pat.length();
         int N = txt.length();
         int i, j;
         int p = 0; // hash value for pattern
         int t = 0; // hash value for txt
         int h = 1;
-
-        // list of matches to be returned
-        ArrayList<Integer> matches = new ArrayList<Integer>();
 
         // The value of h would be "pow(d, M-1)%q"
         for (i = 0; i < M-1; i++)
@@ -41,12 +39,35 @@ public class RabinKarp {
             // Check the hash values of current window of text
             // and pattern. If the hash values match then only
             // check for characters on by one
+            if ( p == t )
+            {
+                /* Check for characters one by one */
+                for (j = 0; j < M; j++)
+                {
+                    if (txt.charAt(i+j) != pat.charAt(j))
+                        break;
+                }
 
-            //TODO - implement this method! :)
+                // if p == t and pat[0...M-1] = txt[i, i+1, ...i+M-1]
+                if (j == M)
+                   matches.add(i);
+            }
+
+            // Calculate hash value for next window of text: Remove
+            // leading digit, add trailing digit
+            if ( i < N-M )
+            {
+                t = (d*(t - txt.charAt(i)*h) + txt.charAt(i+M))%q;
+
+                // We might get negative value of t, converting it
+                // to positive
+                if (t < 0)
+                    t = (t + q);
+            }
         }
-
         return matches;
     }
+
 
     /* Driver program to test above function */
     public static void main(String[] args)
