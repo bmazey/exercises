@@ -1,8 +1,11 @@
 import api.KrakenApi;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import dto.Ticker;
+import jdk.nashorn.api.scripting.URLReader;
 
 import java.io.IOException;
+import java.net.URL;
+import java.net.URLConnection;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -11,6 +14,7 @@ public class BtcPrice {
     /**
      * Look for usage examples at ...
      * https://github.com/nyg/kraken-api-java
+     * author: nyg
      */
 
     private KrakenApi api;
@@ -33,10 +37,12 @@ public class BtcPrice {
     }
 
     public Ticker getBtcUsdTicker() throws IOException {
-
+         ObjectMapper mapper = new ObjectMapper();
+         String jsonInString = "{ 'result' : 'XXBTZUSD'}";
+         Ticker obj = mapper.readValue(new URL("https://api.kraken.com/0/public/Ticker?pair=XBTUSD"), Ticker.class);
 
         //TODO - implement this method!
-        return new Ticker();
+        return obj;
     }
 
     public String getBtcUsdPrice() throws IOException {
@@ -55,8 +61,12 @@ public class BtcPrice {
     }
 
     public Ticker getBtcCadTicker() throws IOException {
+        ObjectMapper mapper = new ObjectMapper();
+        String jsonInString = "{ 'result' : 'XXBTZCAD'}";
+        Ticker obj2 = mapper.readValue(new URL("https://api.kraken.com/0/public/Ticker?pair=XBTCAD"), Ticker.class);
+
         //TODO - implement this method!
-        return new Ticker();
+        return obj2;
     }
 
     public String getBtcCadPrice() throws IOException {
@@ -75,8 +85,12 @@ public class BtcPrice {
     }
 
     public Ticker getBtcJpyTicker() throws IOException {
+        ObjectMapper mapper = new ObjectMapper();
+        String jsonInString = "{ 'result' : 'XXBTZJPY'}";
+        Ticker obj2 = mapper.readValue(new URL("https://api.kraken.com/0/public/Ticker?pair=XBTJPY"), Ticker.class);
+
         //TODO - implement this method!
-        return new Ticker();
+        return obj2;
     }
 
     public String getBtcJpyPrice() throws IOException {
