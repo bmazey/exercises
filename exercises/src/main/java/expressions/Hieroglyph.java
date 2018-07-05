@@ -8,44 +8,59 @@ public class Hieroglyph {
     public boolean worshipSacredCats(String s) {
 
         //TODO - implement this method!
+        Pattern cat = Pattern.compile(".*cat.*");
+        Matcher cMatch = cat.matcher(s);
+        boolean bCat = cMatch.matches();
 
-        return true;
+        return bCat;
     }
 
     public boolean discoverPyramidInSand(String s) {
 
         //TODO - implement this method!
+        Pattern pyramid = Pattern.compile("sand pyramid sand");
+        Matcher pMatch = pyramid.matcher(s);
+        boolean bPyramid = pMatch.matches();
 
-        return true;
+        return bPyramid;
     }
 
     public boolean readAlphanumericGlyph(String s) {
+        Pattern alpha = Pattern.compile("[1-9]{2,4}[a-z]{3,4}");
+        Matcher aMatch = alpha.matcher(s);
+        boolean bAlpha = aMatch.matches();
 
+        return bAlpha;
         //TODO - implement this method!
 
-        return true;
     }
 
     public boolean captureGoldScarab(String s) {
+        Pattern scarab = Pattern.compile(".*gold scarab.*");
+        Matcher sMatch = scarab.matcher(s);
+        boolean bScarab = sMatch.matches();
+
+        return bScarab;
 
         //TODO - implement this method!
 
-        return true;
     }
 
     public boolean avoidNileCrocodile(String s) {
-
+        //i dont know
+        //return true;
         //TODO - implement this method!
 
-        return true;
     }
 
 
     public String replaceWithFalseIdol(String s) {
+        Pattern idol = Pattern.compile(".*crystal idol.*");
+        Matcher iMatch = idol.matcher(s);
+        return s.replaceAll("skull", "idol");
 
         //TODO - implement this method!
 
-        return new String();
     }
 
     public static void main (String[] args) {
