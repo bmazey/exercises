@@ -5,7 +5,6 @@ import dto.Ticker;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
-
 public class BtcPrice {
 
     /**
@@ -15,19 +14,26 @@ public class BtcPrice {
 
     private KrakenApi api;
 
+
     public BtcPrice() {
         this.api = new KrakenApi();
         this.api.setKey("oenG97umzj5IrnldcxqGSt9SQ/xuGIA2xLtnoAiYCPUDkQ5KYBgQTP+N");
         this.api.setSecret("LjHtZKrY9WOnVnUnM0d5KT8Y57DFHkexYTlMokXj0qx/VTijsN9N0YEA2ttI3axFNhuoUV6Hcgx4O0uk75bcyw==");
+String sURL = "https://api.kraken.com/0/public/Ticker?pair=XBTUSD";
+
     }
 
     public String getBtcUsdPriceResponse() throws IOException {
-        //TODO - implement this method!
-        return new String();
+
+        Map<String, String> input = new HashMap<>();
+
+        input.put("pair", "XBTUSD");
+        String response = api.queryPublic(KrakenApi.Method.TICKER, input);
+        return response;
     }
 
     public Ticker getBtcUsdTicker() throws IOException {
-        //TODO - implement this method!
+
         return new Ticker();
     }
 
@@ -68,9 +74,6 @@ public class BtcPrice {
 
     public static void main (String[] args) {
 
-        /**
-         * FOR EXPERIMENTATION ONLY!
-         */
 
     }
 

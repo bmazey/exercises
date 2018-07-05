@@ -7,9 +7,10 @@ public class Hieroglyph {
 
     public boolean worshipSacredCats(String s) {
 
-        //TODO - implement this method!
+        Pattern i = Pattern.compile(".*cat.*");
+        Matcher t = i.matcher(s);
 
-        return true;
+        return t.matches();
     }
 
     public boolean discoverPyramidInSand(String s) {

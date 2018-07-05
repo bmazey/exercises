@@ -6,10 +6,10 @@ public class FamilyTree {
 
     }
 
-    public TreeNode<String> createFamilyTree() {
+   /* public TreeNode<String> createFamilyTree() {
 
-        TreeNode<String> ft = new TreeNode<String>()
+        TreeNode<String> ft = new TreeNode<String>();
 
         return new TreeNode<String>("root");
-    }
+    }*/
 }
