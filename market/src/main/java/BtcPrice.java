@@ -22,105 +22,56 @@ public class BtcPrice {
     }
 
     public String getBtcUsdPriceResponse() throws IOException {
-
-
-        Map <String, String> input = new HashMap<>();
-        input.put("pair", "XBTUSD");
-        String response = api.queryPublic(KrakenApi.Method.TICKER, input);
-
-
         //TODO - implement this method!
-        return response;
+        return new String();
     }
 
     public Ticker getBtcUsdTicker() throws IOException {
-
-        ObjectMapper mapper = new ObjectMapper();
-        Ticker myTicker =   mapper.readValue(this.getBtcUsdPriceResponse(), Ticker.class);
-
         //TODO - implement this method!
-        return myTicker;
+        return new Ticker();
     }
 
     public String getBtcUsdPrice() throws IOException {
-
-        ObjectMapper mapper = new ObjectMapper();
-        Ticker myTicker =   mapper.readValue(this.getBtcUsdPriceResponse(), Ticker.class);
-        String price = myTicker.getResult().getPair().getO();
         //TODO - implement this method!
-
-        return price;
+        return new String();
     }
 
     public String getBtcCadPriceResponse() throws IOException {
-
-        Map <String, String> input = new HashMap<>();
-        input.put("pair", "XBTCAD");
-        String response = api.queryPublic(KrakenApi.Method.TICKER, input);
-
         //TODO - implement this method!
-        return response;
+        return new String();
     }
 
     public Ticker getBtcCadTicker() throws IOException {
-
-        ObjectMapper mapper = new ObjectMapper();
-        Ticker myTicker =   mapper.readValue(this.getBtcCadPriceResponse(), Ticker.class);
-
-
         //TODO - implement this method!
-        return myTicker;
+        return new Ticker();
     }
 
     public String getBtcCadPrice() throws IOException {
-
-        ObjectMapper mapper = new ObjectMapper();
-        Ticker myTicker =   mapper.readValue(this.getBtcCadPriceResponse(), Ticker.class);
-        String price = myTicker.getResult().getPair().getO();
-
-
         //TODO - implement this method!
-        return price;
+        return new String();
     }
 
     public String getBtcJpyPriceResponse() throws IOException {
-
-        Map <String, String> input = new HashMap<>();
-        input.put("pair", "XBTJPY");
-        String response = api.queryPublic(KrakenApi.Method.TICKER, input);
-
         //TODO - implement this method!
-        return response;
+        return new String();
     }
 
     public Ticker getBtcJpyTicker() throws IOException {
-
-        ObjectMapper mapper = new ObjectMapper();
-        Ticker myTicker =   mapper.readValue(this.getBtcJpyPriceResponse(), Ticker.class);
-
-
         //TODO - implement this method!
-        return myTicker;
+        return new Ticker();
     }
 
     public String getBtcJpyPrice() throws IOException {
-
-        ObjectMapper mapper = new ObjectMapper();
-        Ticker myTicker =   mapper.readValue(this.getBtcJpyPriceResponse(), Ticker.class);
-        String price = myTicker.getResult().getPair().getO();
-
         //TODO - implement this method!
-        return price;
+        return new String();
     }
 
-    public static void main (String[] args) throws IOException {
+    public static void main (String[] args) {
 
         /**
          * FOR EXPERIMENTATION ONLY!
          */
 
-        BtcPrice btc = new BtcPrice();
-        System.out.println(btc.getBtcJpyPrice());
     }
 
 }
