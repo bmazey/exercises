@@ -13,7 +13,7 @@ public class Hieroglyph {
     }
 
     public boolean discoverPyramidInSand(String s) {
-        Pattern p = Pattern.compile(Pattern.quote("sand") + "pyramid" + Pattern.quote("sand") );
+        Pattern p = Pattern.compile("sand pyramid sand");
         Matcher m = p.matcher(s);
         boolean b = m.matches();
         return b;
