@@ -42,16 +42,24 @@ public class Hieroglyph {
 
     public boolean captureGoldScarab(String s) {
 
+        Pattern GoldScarab = Pattern.compile(".*gold.scarab");
+        Matcher x = GoldScarab.matcher(s);
+        boolean xGoldScarab = x.matches();
+
         //TODO - implement this method!
 
-        return true;
+        return xGoldScarab;
     }
 
     public boolean avoidNileCrocodile(String s) {
 
+        Pattern Nile = Pattern.compile("nile.*.*");
+        Matcher m = Nile.matcher(s);
+        boolean mNile = m.matches();
+
         //TODO - implement this method!
 
-        return true;
+        return mNile;
     }
 
 
