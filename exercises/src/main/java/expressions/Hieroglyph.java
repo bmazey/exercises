@@ -7,45 +7,53 @@ public class Hieroglyph {
 
     public boolean worshipSacredCats(String s) {
 
-        //TODO - implement this method!
-
-        return true;
+        Pattern p = Pattern.compile(".*cat.*");
+        Matcher m = p.matcher(s);
+        boolean b = m.matches();
+        return b;
     }
 
     public boolean discoverPyramidInSand(String s) {
 
-        //TODO - implement this method!
+        Pattern p = Pattern.compile("sand pyramid sand");
+        Matcher m = p.matcher(s);
+        boolean b = m.matches();
+        return b;
 
-        return true;
     }
 
     public boolean readAlphanumericGlyph(String s) {
 
-        //TODO - implement this method!
+        Pattern p = Pattern.compile("1234abcd|89xyz");
+        Matcher m = p.matcher(s);
+        boolean b = m.matches();
+        return b;
 
-        return true;
+
     }
 
     public boolean captureGoldScarab(String s) {
 
-        //TODO - implement this method!
+        Pattern p = Pattern.compile(".*gold scarab");
+        Matcher m = p.matcher(s);
+        boolean b = m.matches();
+        return b;
 
-        return true;
+
+
     }
 
     public boolean avoidNileCrocodile(String s) {
-
-        //TODO - implement this method!
-
-        return true;
+        Pattern p = Pattern.compile("(nile )*nile( nile)*");
+        Matcher m = p.matcher(s);
+        boolean b = m.matches();
+        return b;
     }
 
 
     public String replaceWithFalseIdol(String s) {
-
-        //TODO - implement this method!
-
-        return new String();
+       String x= s.replaceAll("skull", "idol");
+return x;
     }
 
     public static void main (String[] args) {
