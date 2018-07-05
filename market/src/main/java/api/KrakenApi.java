@@ -20,6 +20,7 @@ public class KrakenApi {
     /** The API key. */
     private String key;
 
+
     /** The API secret. */
     private String secret;
 

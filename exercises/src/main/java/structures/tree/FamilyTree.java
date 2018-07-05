@@ -7,8 +7,18 @@ public class FamilyTree {
     }
 
     public TreeNode<String> createFamilyTree() {
-        //TODO - implement this method!
+        TreeNode<String> Lucille=new TreeNode<String>("Lucille");
+        TreeNode<String> child1=Lucille.addChild("George Oscar");
+        TreeNode<String> child2=Lucille.addChild("Michael");
+        TreeNode<String> child3=Lucille.addChild("Lindsay");
+        TreeNode<String> child4=Lucille.addChild("Buster");
 
-        return new TreeNode<String>("root");
+
+        TreeNode<String> grandchild1=child2.addChild("George Michael");
+        TreeNode<String> grandchild2=child3.addChild("Maeby");
+
+
+
+        return Lucille;
     }
 }

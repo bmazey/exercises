@@ -72,5 +72,7 @@ final class KrakenUtils {
         return URLEncoder.encode(input, UTF8);
     }
 
-    private KrakenUtils() {}
+    private KrakenUtils() {
+
+    }
 }

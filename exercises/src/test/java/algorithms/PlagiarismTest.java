@@ -28,7 +28,7 @@ public class PlagiarismTest {
 
     @Test
     public void assertIsNotPlagiarism() {
-        String pat ="Two households, both alike in dignity " +
+        String pat = "Two households, both alike in dignity " +
                 "In fair Verona, where we lay our scene " +
                 "From ancient grudge break to new mutiny " +
                 "Where civil blood makes civil hands unclean.";
@@ -43,7 +43,7 @@ public class PlagiarismTest {
 
     @Test
     public void assertIsAlsoPlagiarism() {
-        String pat ="It is impossible. We live, as we dream-alone...";
+        String pat = "It is impossible. We live, as we dream-alone...";
         String txt = "It seems to me I am trying to tell you a dream--making a vain attempt, because no relation of " +
                 "a dream can convey the dream-sensation, that commingling of absurdity, surprise, and bewilderment " +
                 "in a tremor of struggling revolt, that notion of being captured by the incredible which is of the " +
@@ -54,5 +54,6 @@ public class PlagiarismTest {
         ArrayList<Integer> matches = RabinKarp.search(pat, txt, 101);
         assertThat(matches.size(), equalTo(1));
         assertThat(matches.get(0), equalTo(499));
+
     }
 }
