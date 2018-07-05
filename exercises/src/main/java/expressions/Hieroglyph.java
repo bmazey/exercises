@@ -15,16 +15,16 @@ public class Hieroglyph {
 
     public boolean discoverPyramidInSand(String s) {
 
-        //TODO - implement this method!
-
-        return true;
+        Pattern i = Pattern.compile("sand* pyramid sand*");
+        Matcher t = i.matcher(s);
+        return t.matches();
     }
 
     public boolean readAlphanumericGlyph(String s) {
 
-        //TODO - implement this method!
-
-        return true;
+        Pattern i = Pattern.compile("[0-9]{2,4}[a-z]{2,4}");
+        Matcher t = i.matcher(s);
+        return t.matches();
     }
 
     public boolean captureGoldScarab(String s) {
