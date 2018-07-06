@@ -75,6 +75,9 @@ public class RedditBot {
 
         //TODO - implement this method!
 
+        SubredditReference sub = new SubredditReference(reddit, "test");
+        sub.submit(SubmissionKind.SELF, "hello", "hello it me", false);
+
     }
 
     public void createCommentOnPost() {
@@ -82,6 +85,11 @@ public class RedditBot {
         //In this method you must create a comment on the post you just created ...
 
         //TODO - implement this method!
+
+        SubmissionReference sub = new SubmissionReference(reddit, "8wnhwp");
+        sub.reply("oh hey whats up");
+
+
 
     }
 
@@ -91,6 +99,11 @@ public class RedditBot {
         // Username: Penance
 
         //TODO - implement this method!
+
+        InboxReference in = new InboxReference(reddit);
+        in.compose(null, "Penance", "hello", "hi brandon it's me alyssa");
+
+
     }
 
     public static void main(String[] args) {
@@ -105,9 +118,9 @@ public class RedditBot {
 
         RedditBot higgins = new RedditBot();
         higgins.printFrontPageMonthlyTop();
-        //higgins.createSelfPost();
-        //higgins.createCommentOnPost();
-        //higgins.sendDirectMessage();
+//        higgins.createSelfPost();
+        higgins.createCommentOnPost();
+//        higgins.sendDirectMessage();
         //System.out.println(higgins.getHigginsCommentAndLinkKarma());
     }
 }
