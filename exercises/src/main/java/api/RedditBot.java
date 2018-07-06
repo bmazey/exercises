@@ -28,7 +28,7 @@ public class RedditBot {
 
     public RedditBot() {
 
-        // You'll want to change this for your specific OAuth2 app
+        // You'll want to change this for your specific OAuth2 app ...
         this.credentials = Credentials.script("higgins_bot", "columbiasummer2018", "1BYnEcT2I3slhQ", "Tydgt8mvNTFOJzbK4mPHkMC-648");
 
         // Construct our NetworkAdapter
