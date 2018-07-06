@@ -6,52 +6,36 @@ import java.util.regex.Pattern;
 public class Hieroglyph {
 
     public boolean worshipSacredCats(String s) {
-
-        //TODO - implement this method!
-
-        return true;
+        return s.matches(".*cat.*");
     }
 
     public boolean discoverPyramidInSand(String s) {
-
-        //TODO - implement this method!
-
-        return true;
+        return s.matches("(sand)+ pyramid (sand)+");
     }
 
     public boolean readAlphanumericGlyph(String s) {
-
-        //TODO - implement this method!
-
-        return true;
+        return s.matches("[0-9]{2,4}[a-z]{1,4}");
     }
 
     public boolean captureGoldScarab(String s) {
-
-        //TODO - implement this method!
-
-        return true;
+        return s.matches(".*gold scarab");
     }
 
     public boolean avoidNileCrocodile(String s) {
-
-        //TODO - implement this method!
-
-        return true;
+        return s.matches("(nile )*nile");
     }
 
 
     public String replaceWithFalseIdol(String s) {
-
-        //TODO - implement this method!
-
-        return new String();
+        return s.replaceAll("skull", "idol");
     }
 
-    public static void main (String[] args) {
+
+    public static void main(String[] args) {
 
         /**
          * EXPERIMENTS ONLY!
          */
     }
 }
+
