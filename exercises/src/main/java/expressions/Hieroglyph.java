@@ -61,7 +61,7 @@ Matcher iMatch = idol.matcher(s);
 return s.replaceAll("skull","idol");
 
 
-        
+
     }
 
     public static void main (String[] args) {
