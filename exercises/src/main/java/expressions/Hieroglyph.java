@@ -6,46 +6,62 @@ import java.util.regex.Pattern;
 public class Hieroglyph {
 
     public boolean worshipSacredCats(String s) {
+    Pattern cat = Pattern.compile(".*cat.*");
+    Matcher catMatch = cat.matcher(s);
+    boolean bCat = catMatch.matches();
 
-        //TODO - implement this method!
+    return bCat;
 
-        return true;
+
     }
 
     public boolean discoverPyramidInSand(String s) {
 
-        //TODO - implement this method!
+        Pattern sand = Pattern.compile("sand pyramid sand");
+        Matcher sandMatch = sand.matcher(s);
+        boolean bSand = sandMatch.matches();
 
-        return true;
+
+        return bSand;
+
     }
 
     public boolean readAlphanumericGlyph(String s) {
 
-        //TODO - implement this method!
+        Pattern glyph = Pattern.compile("[0-9]{2,4}[a-z]{3,4}");
+       Matcher glyphMatch = glyph.matcher(s);
+       boolean bGlyph = glyphMatch.matches();
+       return bGlyph;
 
-        return true;
     }
 
     public boolean captureGoldScarab(String s) {
 
-        //TODO - implement this method!
+        Pattern goldScarab = Pattern.compile(".*gold scarab.*");
+        Matcher goldMatch = goldScarab.matcher(s);
+        boolean bGoldScarab = goldMatch.matches();
 
-        return true;
+        return bGoldScarab;
     }
 
     public boolean avoidNileCrocodile(String s) {
 
-        //TODO - implement this method!
+        Pattern crocodile = Pattern.compile("(nile )*nile( nile)*");
+        Matcher crocodileMatch = crocodile.matcher(s);
+        boolean bCrocodile = crocodileMatch.matches();
 
-        return true;
+
+        return bCrocodile;
     }
 
 
     public String replaceWithFalseIdol(String s) {
+Pattern idol = Pattern.compile(".*crystal idol.*");
+Matcher iMatch = idol.matcher(s);
+return s.replaceAll("skull","idol");
 
-        //TODO - implement this method!
 
-        return new String();
+        
     }
 
     public static void main (String[] args) {
