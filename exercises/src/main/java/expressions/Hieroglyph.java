@@ -47,7 +47,7 @@ public class Hieroglyph {
     }
 
     public boolean avoidNileCrocodile(String s) {
-        Pattern crocodile = Pattern.compile("(?!crocodile)(nile )*");
+        Pattern crocodile = Pattern.compile("(?!crocodile)(nile )*(nile*)");
         Matcher crMatch = crocodile.matcher(s);
         boolean bCrocodile = crMatch.matches();
 
