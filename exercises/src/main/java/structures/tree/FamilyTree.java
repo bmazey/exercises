@@ -8,7 +8,6 @@ public class FamilyTree {
 
     public TreeNode<String> createFamilyTree() {
 
-        //TODO - implement this method!
 
         TreeNode <String> Grandma = new TreeNode<>("Lucille");
         TreeNode <String> GeorgeOscar = Grandma.addChild("George Oscar");
