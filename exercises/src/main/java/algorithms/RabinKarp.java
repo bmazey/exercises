@@ -41,7 +41,14 @@ public class RabinKarp {
             // Check the hash values of current window of text
             // and pattern. If the hash values match then only
             // check for characters on by one
+            if ( p == t ) {
+                /* Check for characters one by one */
+                for (j = 0; j < M; j++) {
+                    if (txt.charAt(i+j) != pat.charAt(j))
+                        break;
+                }
 
+            }
             //TODO - implement this method! :)
 
             //test comment!

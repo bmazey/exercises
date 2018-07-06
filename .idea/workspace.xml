@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7010dba6-87cb-4391-bdff-456b3d0ce0e6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/exercises.iml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/exercises.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/src/main/java/algorithms/RabinKarp.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/src/main/java/algorithms/RabinKarp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/src/main/java/expressions/Hieroglyph.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/src/main/java/expressions/Hieroglyph.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/exercises/target/" />
     <ignored path="$PROJECT_DIR$/interview/target/" />
@@ -14,7 +17,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="HieroglyphTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercises/src/test/java/expressions/HieroglyphTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-59">
+              <caret line="44" column="74" lean-forward="true" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hieroglyph.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exercises/src/main/java/expressions/Hieroglyph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -27,7 +52,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Tarek-RobenKarp" />
+        <entry key="$PROJECT_DIR$" value="Development" />
       </map>
     </option>
   </component>
@@ -47,6 +72,9 @@
         <option value="$PROJECT_DIR$/exercises/src/test/java/structures/MovieQueueTest.java" />
         <option value="$PROJECT_DIR$/exercises/src/main/java/structures/MovieQueue.java" />
         <option value="$PROJECT_DIR$/exercises/src/main/java/structures/GroceryList.java" />
+        <option value="$PROJECT_DIR$/exercises/src/test/java/expressions/HieroglyphTest.java" />
+        <option value="$PROJECT_DIR$/exercises/src/main/java/algorithms/RabinKarp.java" />
+        <option value="$PROJECT_DIR$/exercises/src/main/java/expressions/Hieroglyph.java" />
       </list>
     </option>
   </component>
@@ -67,7 +95,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="22" />
     <option name="width" value="1280" />
     <option name="height" value="729" />
@@ -95,6 +123,35 @@
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
               <item name="exercises" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="expressions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -110,42 +167,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="structures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="expressions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -178,10 +200,7 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercises/src/main/java/fundamentals/PrimitiveTypeCastExample.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercises/src/main/java/fundamentals/StringsExample.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercises/src/test/java/algorithms/PlagiarismTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercises/src/main/java/structures/TreasureMap.java</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -189,25 +208,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercises/src/main/java/fundamentals/Dog.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercises/src/main/java/fundamentals/PepperoniPizza.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercises/src/main/java/fundamentals/Wolf.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exercises/src/test/java/fundamentals/DogArrayTest.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/interview/src/main/main.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/interview/src/test/test.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/market/pom.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/market/src/main/java/BtcPrice.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/market/src/main/java/EthPrice.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/market/src/main/java/api/ApiRequest.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/market/src/main/java/api/KrakenApi.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/market/src/main/java/api/KrakenUtils.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/market/src/main/java/dto/PriceResult.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/market/src/main/java/dto/Ticker.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/market/src/main/java/dto/TickerPair.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/market/src/test/java/BtcPriceTest.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/market/src/test/java/EthPriceTest.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/market/src/test/java/JsonValidator.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/pom.xml</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -215,34 +215,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/compiler.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_194.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_16.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_3_RELEASE.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_3_RELEASE.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_3_RELEASE.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_3_RELEASE.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_3_RELEASE.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_8_RELEASE.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_8_RELEASE.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_8_RELEASE.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_8_RELEASE.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_8_RELEASE.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_8_RELEASE.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/verify/src/VerifyInstall.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/verify/verify.iml</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -272,12 +244,6 @@
         <option name="mySupportsDeletion" value="false" />
         <option name="myCanBeAbsent" value="false" />
         <option name="myId" value="MERGED_WITH_CONFLICTS" />
-        <PATH vcs="Git" revision="">$PROJECT_DIR$/interview/src/main/java/PasswordGenerator.java</PATH>
-        <PATH vcs="Git" revision="">$PROJECT_DIR$/interview/src/main/java/zoo/Cat.java</PATH>
-        <PATH vcs="Git" revision="">$PROJECT_DIR$/interview/src/main/java/zoo/Zoo.java</PATH>
-        <PATH vcs="Git" revision="">$PROJECT_DIR$/interview/src/main/java/zoo/Panther.java</PATH>
-        <PATH vcs="Git" revision="">$PROJECT_DIR$/interview/src/main/java/FizzBuzz.java</PATH>
-        <PATH vcs="Git" revision="">$PROJECT_DIR$/interview/src/main/java/Palindrome.java</PATH>
       </FILE-GROUP>
       <FILE-GROUP>
         <option name="myUpdateName" value="Merged with tree conflicts" />
@@ -342,23 +308,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ZooTest">
-    <configuration name="PasswordGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PasswordGenerator" />
-      <module name="interview" />
+  <component name="RunManager" selected="JUnit.HieroglyphTest.containsGoldScarab">
+    <configuration name="Hieroglyph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="expressions.Hieroglyph" />
+      <module name="exercises" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="expressions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="interview" />
+    <configuration name="HieroglyphTest.containsAlphanumericGlyph" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="expressions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="expressions" />
+      <option name="MAIN_CLASS_NAME" value="expressions.HieroglyphTest" />
+      <option name="METHOD_NAME" value="containsAlphanumericGlyph" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -368,14 +346,20 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="interview" />
+    <configuration name="HieroglyphTest.containsGoldScarab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="expressions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PalindromeTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="expressions" />
+      <option name="MAIN_CLASS_NAME" value="expressions.HieroglyphTest" />
+      <option name="METHOD_NAME" value="containsGoldScarab" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -385,14 +369,20 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PasswordGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="interview" />
+    <configuration name="HieroglyphTest.containsPyramidInSand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="expressions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PasswordGeneratorTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="expressions" />
+      <option name="MAIN_CLASS_NAME" value="expressions.HieroglyphTest" />
+      <option name="METHOD_NAME" value="containsPyramidInSand" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -402,14 +392,20 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ZooTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="interview" />
+    <configuration name="HieroglyphTest.containsSacredCats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="expressions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ZooTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="expressions" />
+      <option name="MAIN_CLASS_NAME" value="expressions.HieroglyphTest" />
+      <option name="METHOD_NAME" value="containsSacredCats" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -458,19 +454,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.PalindromeTest" />
-      <item itemvalue="JUnit.PasswordGeneratorTest" />
-      <item itemvalue="JUnit.ZooTest" />
-      <item itemvalue="Application.PasswordGenerator" />
-      <item itemvalue="JUnit.FizzBuzzTest" />
+      <item itemvalue="Application.Hieroglyph" />
+      <item itemvalue="JUnit.HieroglyphTest.containsSacredCats" />
+      <item itemvalue="JUnit.HieroglyphTest.containsPyramidInSand" />
+      <item itemvalue="JUnit.HieroglyphTest.containsAlphanumericGlyph" />
+      <item itemvalue="JUnit.HieroglyphTest.containsGoldScarab" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FizzBuzzTest" />
-        <item itemvalue="Application.PasswordGenerator" />
-        <item itemvalue="JUnit.ZooTest" />
-        <item itemvalue="JUnit.PasswordGeneratorTest" />
-        <item itemvalue="JUnit.PalindromeTest" />
+        <item itemvalue="JUnit.HieroglyphTest.containsGoldScarab" />
+        <item itemvalue="JUnit.HieroglyphTest.containsAlphanumericGlyph" />
+        <item itemvalue="JUnit.HieroglyphTest.containsPyramidInSand" />
+        <item itemvalue="Application.Hieroglyph" />
+        <item itemvalue="JUnit.HieroglyphTest.containsSacredCats" />
       </list>
     </recent_temporary>
   </component>
@@ -487,7 +483,7 @@
       <workItem from="1530047824568" duration="7291000" />
       <workItem from="1530132293265" duration="171000" />
       <workItem from="1530132484081" duration="20632000" />
-      <workItem from="1530558973599" duration="6636000" />
+      <workItem from="1530558973599" duration="13311000" />
     </task>
     <task id="LOCAL-00001" summary="Day 1 of FizzBuzz problem">
       <created>1530073588022</created>
@@ -531,46 +527,53 @@
       <option name="project" value="LOCAL" />
       <updated>1530565001890</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test commit">
+      <created>1530646551847</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1530646551847</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FizzBuzzTest - 2018.06.27 at 17h 07m 30s.xml">
-      <configuration name="FizzBuzzTest" configurationId="JUnit" />
+    <history-entry file="HieroglyphTest_containsPyramidInSand - 2018.07.05 at 15h 58m 51s.xml">
+      <configuration name="HieroglyphTest.containsPyramidInSand" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PalindromeTest - 2018.06.27 at 17h 15m 40s.xml">
-      <configuration name="PalindromeTest" configurationId="JUnit" />
+    <history-entry file="HieroglyphTest_containsPyramidInSand - 2018.07.05 at 15h 59m 25s.xml">
+      <configuration name="HieroglyphTest.containsPyramidInSand" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PasswordGeneratorTest - 2018.06.28 at 16h 22m 28s.xml">
-      <configuration name="PasswordGeneratorTest" configurationId="JUnit" />
+    <history-entry file="HieroglyphTest_containsAlphanumericGlyph - 2018.07.05 at 16h 12m 53s.xml">
+      <configuration name="HieroglyphTest.containsAlphanumericGlyph" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ZooTest - 2018.06.28 at 16h 47m 29s.xml">
-      <configuration name="ZooTest" configurationId="JUnit" />
+    <history-entry file="HieroglyphTest_containsAlphanumericGlyph - 2018.07.05 at 16h 16m 51s.xml">
+      <configuration name="HieroglyphTest.containsAlphanumericGlyph" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ZooTest - 2018.06.28 at 16h 49m 09s.xml">
-      <configuration name="ZooTest" configurationId="JUnit" />
+    <history-entry file="HieroglyphTest_containsPyramidInSand - 2018.07.05 at 16h 22m 44s.xml">
+      <configuration name="HieroglyphTest.containsPyramidInSand" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ZooTest - 2018.06.28 at 17h 02m 38s.xml">
-      <configuration name="ZooTest" configurationId="JUnit" />
+    <history-entry file="HieroglyphTest_containsAlphanumericGlyph - 2018.07.05 at 16h 24m 05s.xml">
+      <configuration name="HieroglyphTest.containsAlphanumericGlyph" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest - 2018.06.28 at 17h 03m 25s.xml">
-      <configuration name="FizzBuzzTest" configurationId="JUnit" />
+    <history-entry file="HieroglyphTest_containsAlphanumericGlyph - 2018.07.05 at 16h 25m 01s.xml">
+      <configuration name="HieroglyphTest.containsAlphanumericGlyph" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PalindromeTest - 2018.06.28 at 17h 03m 30s.xml">
-      <configuration name="PalindromeTest" configurationId="JUnit" />
+    <history-entry file="HieroglyphTest_containsGoldScarab - 2018.07.05 at 16h 30m 56s.xml">
+      <configuration name="HieroglyphTest.containsGoldScarab" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PasswordGeneratorTest - 2018.06.28 at 17h 03m 35s.xml">
-      <configuration name="PasswordGeneratorTest" configurationId="JUnit" />
+    <history-entry file="HieroglyphTest_containsGoldScarab - 2018.07.05 at 16h 32m 50s.xml">
+      <configuration name="HieroglyphTest.containsGoldScarab" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ZooTest - 2018.06.28 at 17h 03m 39s.xml">
-      <configuration name="ZooTest" configurationId="JUnit" />
+    <history-entry file="HieroglyphTest_containsGoldScarab - 2018.07.05 at 16h 33m 43s.xml">
+      <configuration name="HieroglyphTest.containsGoldScarab" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34730000" />
+    <option name="totallyTimeSpent" value="41405000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="729" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -578,11 +581,12 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5078125" side_tool="true" visible="true" weight="0.4274809" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50078124" side_tool="true" weight="0.328877" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4921875" visible="true" weight="0.4274809" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4921875" visible="true" weight="0.37433156" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49921876" weight="0.328877" />
+      <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="2" />
@@ -597,11 +601,41 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4921875" weight="0.37433156" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50078124" side_tool="true" visible="true" weight="0.328877" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49921876" visible="true" weight="0.328877" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4921875" weight="0.28475937" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -614,7 +648,8 @@
     <MESSAGE value="almost done with password generator" />
     <MESSAGE value="ace the interview complete!" />
     <MESSAGE value="Merge remote-tracking branch 'origin/development' into TheTarekBranch&#10;&#10;# Conflicts:&#10;#&#9;interview/src/main/java/FizzBuzz.java&#10;#&#9;interview/src/main/java/Palindrome.java&#10;#&#9;interview/src/main/java/PasswordGenerator.java&#10;#&#9;interview/src/main/java/zoo/Cat.java&#10;#&#9;interview/src/main/java/zoo/Panther.java&#10;#&#9;interview/src/main/java/zoo/Zoo.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/development' into TheTarekBranch&#10;&#10;# Conflicts:&#10;#&#9;interview/src/main/java/FizzBuzz.java&#10;#&#9;interview/src/main/java/Palindrome.java&#10;#&#9;interview/src/main/java/PasswordGenerator.java&#10;#&#9;interview/src/main/java/zoo/Cat.java&#10;#&#9;interview/src/main/java/zoo/Panther.java&#10;#&#9;interview/src/main/java/zoo/Zoo.java" />
+    <MESSAGE value="test commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/interview/src/main/java/Palindrome.java">
@@ -784,13 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interview/src/main/java/zoo/Zoo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/interview/src/main/java/zoo/Color.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -935,6 +963,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interview/src/main/java/zoo/Zoo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/src/main/java/algorithms/RabinKarp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/src/test/java/expressions/HieroglyphTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="44" column="74" lean-forward="true" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/src/main/java/expressions/Hieroglyph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
