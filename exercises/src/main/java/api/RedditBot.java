@@ -12,8 +12,6 @@ import net.dean.jraw.pagination.DefaultPaginator;
 import net.dean.jraw.pagination.Paginator;
 import net.dean.jraw.references.*;
 
-import java.util.List;
-
 
 public class RedditBot {
 
