@@ -8,6 +8,13 @@
     <artifactId>exercises</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <repositories>
+        <repository>
+            <id>jcenter</id>
+            <url>https://jcenter.bintray.com/</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <!-- Testing with Spring & h2 -->
         <dependency>
