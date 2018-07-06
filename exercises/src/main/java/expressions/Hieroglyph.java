@@ -7,23 +7,33 @@ public class Hieroglyph {
 
     public boolean worshipSacredCats(String s) {
 
-        //TODO - implement this method!
 
-        return true;
+
+        Pattern p = Pattern.compile("(sacred )*cat( sacred)*" );
+        Matcher m = p.matcher(s);
+        boolean b = m.matches();
+
+        return b;
     }
 
     public boolean discoverPyramidInSand(String s) {
 
-        //TODO - implement this method!
+        Pattern p = Pattern.compile("(sand )* pyramid ( sand)*" );
+        Matcher m = p.matcher(s);
+        boolean b = m.matches();
 
-        return true;
+        return b;
     }
 
     public boolean readAlphanumericGlyph(String s) {
 
         //TODO - implement this method!
 
-        return true;
+        Pattern p = Pattern.compile("(sacred )*cat( sacred)*" );
+        Matcher m = p.matcher(s);
+        boolean b = m.matches();
+
+        return b;
     }
 
     public boolean captureGoldScarab(String s) {

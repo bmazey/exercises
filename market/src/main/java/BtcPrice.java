@@ -23,6 +23,8 @@ public class BtcPrice {
 
     public String getBtcUsdPriceResponse() throws IOException {
         //TODO - implement this method!
+
+        String bTCUSD =
         return new String();
     }
 
