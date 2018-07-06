@@ -1,5 +1,3 @@
-import java.sql.Array;
-
 public class FizzBuzz {
 
     /**
@@ -9,20 +7,32 @@ public class FizzBuzz {
 
     public static void main(String [] args) {
 
-        //mycomment
+        String isFizzBuzz = "";
+
+        int i = 15;
+
+        if(i % 3 == 0){
+            System.out.println("fizz");
+        }
+        if(i % 5 == 0){
+            System.out.print("buzz");
+        }
+
     }
 
     public String fizzBuzz(int i) {
 
-        if (i % 15 == 0) { //we have to check for the 15 first so that if it was a fizzbuzz it doesn't appear as a fizz!
-            return ("Fizzbuzz!");
+        String isFizzBuzz = "";
+
+        if(i % 3 == 0){
+            isFizzBuzz += "fizz";
         }
-        else if (i % 3 == 0) { // The "%" sign is called the "Modulo" sign, which checks the remainder after division :D
-            return ("Fizz");
+        if(i % 5 == 0){
+            isFizzBuzz += "buzz";
         }
-        else if (i % 5 == 0) {
-            return ("Buzz");
-        }
-        return "";
+
+        //TODO - implement method!
+        return isFizzBuzz;
+
     }
 }

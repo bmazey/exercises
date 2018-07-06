@@ -5,25 +5,32 @@ public class Palindrome {
      * @param args
      */
 
-    public static void main(String [] args) {
+   public static void main(String [] args) {
+
+        String summer = "summer2018";
+
+        for (int i = 0; i < summer.length(); i++) {
+
+            System.out.println(i + " : " + summer.charAt(i));
+
+        }
 
     }
+
     public boolean isPalindrome(String s) {
-        String Omar = "";
 
-        for(int x = s.length() -1; x >=0; x-- ) {
-            Omar += s.charAt(x);
+
+        boolean isPalindrome = true;
+
+        for (int i = 0; i < s.length(); i++) {
+
+
+            if (s.charAt(i) != s.charAt(s.length()-1-i)){
+                isPalindrome = false;
+            }
+
         }
 
-        System.out.println("Omar: " + Omar + " s: " + s);
-
-        if (s.equals(Omar)) {
-            return true;
-        }
-        else {
-            return false;
-        }
-
-
+        return isPalindrome;
     }
 }

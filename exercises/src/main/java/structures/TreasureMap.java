@@ -9,14 +9,17 @@ public class TreasureMap {
     }
 
     public Map<String, String> createTreasureMap() {
-        HashMap Omar = new HashMap();
-        Omar.put("beach","sandy shores");
-        Omar.put("coast","ocean reef");
-        Omar.put("volcano","hot lava");
-        Omar.put("x","marks the spot");
+        Map<String, String> mapTreasureMap = new HashMap();
+
+        mapTreasureMap.put("beach", "sandy shores");
+        mapTreasureMap.put("coast", "ocean reef");
+        mapTreasureMap.put("volcano", "hot lava");
+        mapTreasureMap.put("x", "marks the spot");
+
+        System.out.println(mapTreasureMap);
 
         //TODO - implement this method!
 
-        return Omar;
+        return mapTreasureMap;
     }
 }

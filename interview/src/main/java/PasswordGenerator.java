@@ -10,20 +10,36 @@ public class PasswordGenerator {
     }
 
     public static String generatePassword() {
-String characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789~`!@#$%^&*()_-+={[}]|\\:;\"\'<,>.?/";
-String password = "";
-Random randvalue = new Random();
-       int loop;
-       //adding letters
-       for(loop = 1; loop <= 5; loop++)
-           password += (characters.charAt(randvalue.nextInt(52)));
-       //adding numbers
-       for(loop = 1; loop <= 4; loop++)
-           password += (characters.charAt(randvalue.nextInt(10) + 52));
-       //adding rand letter-number
-           password += (characters.charAt(randvalue.nextInt(32) + 62));
-       //debug
-       System.out.println(password);
+
+        Random r = new Random();
+
+        String password = "";
+
+        String alphabet = "abcdefghijklmnopqrstuvwxyz";
+        String numbers = "0123456789";
+        String symbols = "!@#$%^&*";
+
+
+        for (int i = 0; i < 5; i++) {
+
+            //System.out.println(i + " : " + alphabet.charAt(i));
+
+            password += alphabet.charAt(r.nextInt(alphabet.length()-1));
+
+        }
+
+        for (int i = 0; i < 4; i++) {
+
+            //System.out.println(i + " : " + numbers.charAt(i));
+
+            password += numbers.charAt(r.nextInt(numbers.length() - 1));
+
+        }
+
+        password += symbols.charAt(r.nextInt(symbols.length() - 1));
+
+
+        //test
         return password;
-    }
+        }
 }
