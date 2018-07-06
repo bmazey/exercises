@@ -43,7 +43,7 @@ public class Hieroglyph {
 
     public String replaceWithFalseIdol(String s) {
 
-        String idol = s.replaceAll("skull", "idol");
+        String idol = s.replaceAll("skull", "idol");  //Working!
         return idol;
     }
 
