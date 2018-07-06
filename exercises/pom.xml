@@ -8,6 +8,13 @@
     <artifactId>exercises</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <repositories>
+        <repository>
+            <id>jcenter</id>
+            <url>https://jcenter.bintray.com/</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <!-- Testing with Spring & h2 -->
         <dependency>
@@ -21,6 +28,14 @@
             <artifactId>h2</artifactId>
             <scope>test</scope>
             <version>1.4.194</version>
+        </dependency>
+
+        <!-- JRAW Reddit API Wrapper -->
+        <!-- https://mvnrepository.com/artifact/net.dean.jraw/JRAW -->
+        <dependency>
+            <groupId>net.dean.jraw</groupId>
+            <artifactId>JRAW</artifactId>
+            <version>1.1.0</version>
         </dependency>
 
     </dependencies>
