@@ -11,13 +11,12 @@ public class Zoo {
         Panther panther1 = new Panther();
         Panther panther2 = new Panther();
 
-        System.out.println("panther1 size: " + panther1.getSize() + " panther2 size: " + panther2.getSize());
-
-        panther2.setSize(7);
 
         System.out.println("panther1 size: " + panther1.getSize() + " panther2 size: " + panther2.getSize());
 
-        panther1.setSize(11);
+
+        System.out.println("panther1 size: " + panther1.getSize() + " panther2 size: " + panther2.getSize());
+
 
         System.out.println("panther1 size: " + panther1.getSize() + " panther2 size: " + panther2.getSize());
 

@@ -39,7 +39,7 @@ public class Hieroglyph {
 
     public String replaceWithFalseIdol(String s) {
 
-        boolean d = Patter.matches(s.replace"crystal", s)
+
 
         return new String();
     }

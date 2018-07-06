@@ -2,9 +2,7 @@ package zoo;
 
 public class Tiger extends Cat {
 
-    public String purr() {
-        return "PowerPurr";
-    }
+    public void purr() {  }
 
     public Integer getSize() {
         return 5;
