@@ -81,7 +81,7 @@ public class RedditBot {
 
     public void createCommentOnPost() {
 
-        //In this method you must create a comment on the post you just created.
+        //In this method you must create a comment on the post you just created ...
 
         //TODO - implement this method!
 
