@@ -34,15 +34,10 @@ public class Hieroglyph {
     }
 
     public boolean avoidNileCrocodile(String s) {
-        if ( s == "nile") {
-            return true;
-        }
-        else if ( s == "nile nile nile") {
-            return true;
-        }
-        else {
-            return false;
-        }
+        Pattern p = Pattern.compile("(.*)nile crocodile(.*)");  // Works!!
+        Matcher m = p.matcher(s);
+        boolean b = !m.matches();
+        return b;
     }
 
 
