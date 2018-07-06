@@ -37,7 +37,11 @@ public class Hieroglyph {
 
         //TODO - implement this method!
 
-        return true;
+        Pattern p = Pattern.compile("(?!crocodile)(nile )*(nile)*");
+        Matcher m = p.matcher(s);
+        boolean b = m.matches();
+
+        return b;
     }
 
 
