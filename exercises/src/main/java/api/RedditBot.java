@@ -65,9 +65,13 @@ public class RedditBot {
 
         int i = 0;
         return i;
+
     }
 
     public void createSelfPost() {
+
+        SubredditReference subreddit = new SubredditReference(this.reddit, "test");
+        subreddit.submit(SubmissionKind.SELF, "here's our class post!", "should've done IG!", false);
 
         // In this method you must submit a Self Post
         // MAKE SURE TO SAVE THE ID VALUE OF YOUR POST! (from the console)
@@ -75,9 +79,16 @@ public class RedditBot {
 
         //TODO - implement this method!
 
-    }
+
 
     public void createCommentOnPost() {
+
+        SubmissionReference submission = new SubmissionReference(this.reddit, "8wkjpr");
+        submission.reply("hello");
+
+        }
+
+        }
 
         //In this method you must create a comment on the post you just created ...
 
@@ -86,6 +97,9 @@ public class RedditBot {
     }
 
     public void sendDirectMessage() {
+
+        SelfUserReference self = new SelfUserReference(this. reddit);
+        self.inbox().compose("Penance", "Hello from Higgins", "You should've done Instagram!");
 
         // Send a direct message to me on reddit!
         // Username: Penance
@@ -104,7 +118,7 @@ public class RedditBot {
          */
 
         RedditBot higgins = new RedditBot();
-        higgins.printFrontPageMonthlyTop();
+        //higgins.printFrontPageMonthlyTop();
         //higgins.createSelfPost();
         //higgins.createCommentOnPost();
         //higgins.sendDirectMessage();
