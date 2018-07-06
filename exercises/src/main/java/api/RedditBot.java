@@ -81,6 +81,9 @@ public class RedditBot {
 
     public void createCommentOnPost() {
 
+
+        SubmissionReference submission= new SubmissionReference(this.reddit, "Bwkjpr");
+        submission.reply("test comment");
         //In this method you must create a comment on the post you just created ...
 
         //TODO - implement this method!
@@ -89,6 +92,9 @@ public class RedditBot {
 
     public void sendDirectMessage() {
 
+
+        SelfUserReference self = new SelfUserReference(this. reddit);
+        self.inbox().compose("Penance", "Hello from Higgins", "You should have done Instagram!");
         // Send a direct message to me on reddit!
         // Username: Penance
 
