@@ -29,22 +29,22 @@ public class Hieroglyph {
 
     public boolean captureGoldScarab(String s) {
 
-        //TODO - implement this method!
-
-        return true;
+        Pattern i = Pattern.compile(".*gold scarab.*");
+        Matcher t = i.matcher(s);
+        return t.matches();
     }
 
     public boolean avoidNileCrocodile(String s) {
 
-        //TODO - implement this method!
-
-        return true;
+        Pattern i = Pattern.compile(".*crocodile.*");
+        Matcher t = i.matcher(s);
+        return !t.matches();
     }
 
 
     public String replaceWithFalseIdol(String s) {
 
-        //TODO - implement this method!
+        Pattern i = Pattern.compile("");
 
         return new String();
     }
