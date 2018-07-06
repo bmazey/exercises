@@ -20,7 +20,7 @@ public class Hieroglyph {
     }
 
     public boolean readAlphanumericGlyph(String s) {
-        Pattern p = Pattern.compile("[1-9]{2-4}[a-z][3-4]");   // Under maintenance..
+        Pattern p = Pattern.compile("[1-9]{2,4}[a-z]{3,4}");   // Working!
         Matcher m = p.matcher(s);
         boolean b = m.matches();
         return b;
