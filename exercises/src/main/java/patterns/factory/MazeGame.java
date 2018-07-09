@@ -14,6 +14,8 @@ public abstract class MazeGame {
      */
 
     public MazeGame() {
+
+        
         Room room1 = makeRoom();
         Room room2 = makeRoom();
 
