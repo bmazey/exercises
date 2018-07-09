@@ -63,7 +63,6 @@ public class RedditBot {
     public int getHigginsCommentAndLinkKarma() {
 SelfUserReference higgins=new SelfUserReference(this.reddit);
 higgins.karma();
-        // Return the total amount of comment + link karma for higgins_bot
         //TODO - implement this metho
         int i = 0;
         return i;
@@ -115,6 +114,6 @@ self.inbox().compose("Penance","Hello!","You should have done Instagram!");
         higgins.createSelfPost();
         higgins.createCommentOnPost();
         higgins.sendDirectMessage();
-        //System.out.println(higgins.getHigginsCommentAndLinkKarma());
+        System.out.println(higgins.getHigginsCommentAndLinkKarma());
     }
 }
