@@ -74,6 +74,8 @@ public class RedditBot {
         // In this method you must submit a Self Post
         // MAKE SURE TO SAVE THE ID VALUE OF YOUR POST! (from the console)
         // Otherwise you'll have to use some more advanced methods to get the ID ...
+        SubredditReference subreddit = new SubredditReference(this.reddit,"test");
+        subreddit.submit(SubmissionKind.SELF, "Here is our class post","should have done ig",false);
 
         //TODO - implement this method!
 
@@ -88,6 +90,8 @@ public class RedditBot {
     }
 
     public void sendDirectMessage() {
+        SelfUserReference self = new SelfUserReference(this.reddit);
+        self.inbox().compose("Penance", "Hello from higgins", "you should have done Instagram");
 
         // Send a direct message to me on reddit!
         // Username: Penance
