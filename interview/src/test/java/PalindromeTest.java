@@ -19,5 +19,6 @@ public class PalindromeTest {
         assertEquals(myPalindrome.isPalindrome("milkshake"), false);
         assertEquals(myPalindrome.isPalindrome("robot"), false);
         assertEquals(myPalindrome.isPalindrome("())("), true);
+        assertEquals(myPalindrome.isPalindrome("()()"), false);
     }
 }

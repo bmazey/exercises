@@ -99,7 +99,7 @@ public class RedditBot {
 
         SelfUserReference self = new SelfUserReference(reddit);
 
-        self.inbox().compose("Penance", "Hello from Higgins!", ".");
+        self.inbox().compose("Penance", "Hello from Higgins!", "It would have been preferable to perform this operation using the social media program known as the gram.");
 
         // Send a direct message to me on reddit!
         // Username: Penance
@@ -118,10 +118,10 @@ public class RedditBot {
          */
 
         RedditBot higgins = new RedditBot();
-        //nhiggins.printFrontPageMonthlyTop();
+        //higgins.printFrontPageMonthlyTop();
         //higgins.createSelfPost();
-        higgins.createCommentOnPost();
-        //higgins.sendDirectMessage();
+        //higgins.createCommentOnPost();
+        higgins.sendDirectMessage();
         //System.out.println(higgins.getHigginsCommentAndLinkKarma());
     }
 }

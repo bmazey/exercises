@@ -2,10 +2,16 @@ package patterns.factory;
 
 public class MagicRoom extends Room {
 
-    //TODO - implement methods!
+    private int numberOfWalls = 6;
+    private int numberOfDoors = 0;
+    private String color = "Purple";
+    private boolean mirrored = true;
+    private String magicTraverse = "Teleport";
+
+
 
     public int getNumberOfWalls() {
-        return 0;
+        return numberOfWalls;
     }
 
     public void setNumberOfWalls(int numberOfWalls) {
@@ -13,7 +19,7 @@ public class MagicRoom extends Room {
     }
 
     public int getNumberOfDoors() {
-        return 0;
+        return numberOfDoors;
     }
 
     public void setNumberOfDoors(int numberOfDoors) {
@@ -21,7 +27,7 @@ public class MagicRoom extends Room {
     }
 
     public String getColor() {
-        return null;
+        return color;
     }
 
     public void setColor(String color) {
@@ -29,7 +35,7 @@ public class MagicRoom extends Room {
     }
 
     public boolean isMirrored() {
-        return false;
+        return mirrored;
     }
 
     public void setMirrored(boolean mirrored) {
@@ -37,6 +43,6 @@ public class MagicRoom extends Room {
     }
 
     public String traverse() {
-        return null;
+        return magicTraverse;
     }
 }

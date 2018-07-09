@@ -2,10 +2,14 @@ package patterns.factory;
 
 public class OrdinaryRoom extends Room {
 
-    //TODO - implement methods!
+    private int numberOfWalls = 4;
+    private int numberOfDoors = 2;
+    private String color = "White";
+    private boolean mirrored = false;
+    private String ordinaryTraverse = "Open Door";
 
     public int getNumberOfWalls() {
-        return 0;
+        return numberOfWalls;
     }
 
     public void setNumberOfWalls(int numberOfWalls) {
@@ -13,7 +17,7 @@ public class OrdinaryRoom extends Room {
     }
 
     public int getNumberOfDoors() {
-        return 0;
+        return numberOfDoors;
     }
 
     public void setNumberOfDoors(int numberOfDoors) {
@@ -21,7 +25,7 @@ public class OrdinaryRoom extends Room {
     }
 
     public String getColor() {
-        return null;
+        return color;
     }
 
     public void setColor(String color) {
@@ -29,7 +33,7 @@ public class OrdinaryRoom extends Room {
     }
 
     public boolean isMirrored() {
-        return false;
+        return mirrored;
     }
 
     public void setMirrored(boolean mirrored) {
@@ -37,6 +41,6 @@ public class OrdinaryRoom extends Room {
     }
 
     public String traverse() {
-        return null;
+        return ordinaryTraverse;
     }
 }

@@ -20,17 +20,19 @@ public class Palindrome {
     public boolean isPalindrome(String s) {
 
 
-        boolean isPalindrome = true;
+//        boolean isPalindrome = true;
+//
+//        for (int i = 0; i < s.length(); i++) {
+//
+//
+//            if (s.charAt(i) != s.charAt(s.length()-1-i)){
+//                isPalindrome = false;
+//            }
+//
+//        }
+//
+//        return isPalindrome;
 
-        for (int i = 0; i < s.length(); i++) {
-
-
-            if (s.charAt(i) != s.charAt(s.length()-1-i)){
-                isPalindrome = false;
-            }
-
-        }
-
-        return isPalindrome;
+        return s.equals(new StringBuilder(s).reverse().toString());
     }
 }
