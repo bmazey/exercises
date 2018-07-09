@@ -63,13 +63,16 @@ public class RedditBot {
     public int getHigginsCommentAndLinkKarma() {
 
         // Return the total amount of comment + link karma for higgins_bot
-        //TODO - implement this method!
 
+        //TODO - implement this method!
+        SelfUserReference self = new SelfUserReference(reddit);
         int i = 0;
         return i;
     }
 
     public void createSelfPost() {
+        SelfUserReference self = new SelfUserReference(reddit);
+
 
         // In this method you must submit a Self Post
         // MAKE SURE TO SAVE THE ID VALUE OF YOUR POST! (from the console)
@@ -77,17 +80,26 @@ public class RedditBot {
 
         //TODO - implement this method!
 
+        SubredditReference subreddit = new SubredditReference(this.reddit, "test");
+        subreddit.submit(SubmissionKind.SELF, "!tsop ssalc ruo s'ereH!", ".margatsnI enod evah dluohS", false);
     }
+
 
     public void createCommentOnPost() {
 
         //In this method you must create a comment on the post you just created ...
 
         //TODO - implement this method!
+        SubmissionReference submission = new SubmissionReference(this.reddit, "8wkjpr");
+        submission.reply("The following statement is true.");
 
     }
 
     public void sendDirectMessage() {
+
+        SelfUserReference self = new SelfUserReference(reddit);
+
+        self.inbox().compose("Penance", "Hello from Higgins!", ".");
 
         // Send a direct message to me on reddit!
         // Username: Penance
@@ -106,9 +118,9 @@ public class RedditBot {
          */
 
         RedditBot higgins = new RedditBot();
-        higgins.printFrontPageMonthlyTop();
+        //nhiggins.printFrontPageMonthlyTop();
         //higgins.createSelfPost();
-        //higgins.createCommentOnPost();
+        higgins.createCommentOnPost();
         //higgins.sendDirectMessage();
         //System.out.println(higgins.getHigginsCommentAndLinkKarma());
     }
