@@ -11,6 +11,7 @@ import net.dean.jraw.oauth.OAuthHelper;
 import net.dean.jraw.pagination.DefaultPaginator;
 import net.dean.jraw.pagination.Paginator;
 import net.dean.jraw.references.*;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 
@@ -60,13 +61,11 @@ public class RedditBot {
         }
     }
 
-    public int getHigginsCommentAndLinkKarma() {
+    public void getHigginsCommentAndLinkKarma() {
 
         // Return the total amount of comment + link karma for higgins_bot
         //TODO - implement this method!
 
-        int i = 0;
-        return i;
     }
 
     public void createSelfPost() {
@@ -83,7 +82,8 @@ public class RedditBot {
 
         //In this method you must create a comment on the post you just created ...
 
-        //TODO - implement this method!
+        SubmissionReference submission = new SubmissionReference (this.reddit, "8wnhwp");
+        submission.reply("><(((('>");
 
     }
 
@@ -92,7 +92,9 @@ public class RedditBot {
         // Send a direct message to me on reddit!
         // Username: Penance
 
-        //TODO - implement this method!
+        SelfUserReference self = new SelfUserReference (this.reddit);
+        self.inbox().compose("Penance","><(((('>","Reddit is much better than ins :(");
+
     }
 
     public static void main(String[] args) {
@@ -108,8 +110,8 @@ public class RedditBot {
         RedditBot higgins = new RedditBot();
         higgins.printFrontPageMonthlyTop();
         //higgins.createSelfPost();
-        //higgins.createCommentOnPost();
-        //higgins.sendDirectMessage();
+        higgins.createCommentOnPost();
+        higgins.sendDirectMessage();
         //System.out.println(higgins.getHigginsCommentAndLinkKarma());
     }
 }
