@@ -6,51 +6,35 @@ import java.util.regex.Pattern;
 public class Hieroglyph {
 
     public boolean worshipSacredCats(String s) {
-        Pattern p = Pattern.compile("(.*)cat(.*)");  // It works!
-        Matcher m = p.matcher(s);
-        boolean b = m.matches();
-        return b;
+        return s.matches(".*cat.*");
     }
 
     public boolean discoverPyramidInSand(String s) {
-        Pattern p = Pattern.compile("sand pyramid sand"); // Works!
-        Matcher m = p.matcher(s);
-        boolean b = m.matches();
-        return b;
+        return s.matches("(sand)+ pyramid (sand)+");
     }
 
     public boolean readAlphanumericGlyph(String s) {
-        Pattern p = Pattern.compile("[1-9]{2,4}[a-z]{3,4}");   // Working!
-        Matcher m = p.matcher(s);
-        boolean b = m.matches();
-        return b;
+        return s.matches("[0-9]{2,4}[a-z]{1,4}");
     }
 
     public boolean captureGoldScarab(String s) {
-        Pattern p = Pattern.compile("(.*)gold scarab(.*)");  // Perfectly working!
-        Matcher m = p.matcher(s);
-        boolean b = m.matches();
-        return b;
+        return s.matches(".*gold scarab");
     }
 
     public boolean avoidNileCrocodile(String s) {
-        Pattern p = Pattern.compile("(.*)nile crocodile(.*)");  // Works!!
-        Matcher m = p.matcher(s);
-        boolean b = !m.matches();
-        return b;
+        return s.matches("(nile )*nile");
     }
 
 
     public String replaceWithFalseIdol(String s) {
-
-        String idol = s.replaceAll("skull", "idol");  //Working!
-        return idol;
+        return s.replaceAll("skull", "idol");
     }
 
-    public static void main (String[] args) {
+
+    public static void main(String[] args) {
 
         /**
          * EXPERIMENTS ONLY!
          */
     }
-}
+} 
