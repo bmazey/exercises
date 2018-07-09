@@ -3,13 +3,13 @@ package patterns.factory;
 public class MagicRoom extends Room {
 
     //TODO - implement methods!
-
+    Room magicRoom = new MagicRoom();
     public int getNumberOfWalls() {
         return 0;
     }
 
     public void setNumberOfWalls(int numberOfWalls) {
-
+        magicRoom.setNumberOfWalls(6);
     }
 
     public int getNumberOfDoors() {
@@ -17,7 +17,7 @@ public class MagicRoom extends Room {
     }
 
     public void setNumberOfDoors(int numberOfDoors) {
-
+       magicRoom.setNumberOfDoors(0);
     }
 
     public String getColor() {
@@ -25,7 +25,7 @@ public class MagicRoom extends Room {
     }
 
     public void setColor(String color) {
-
+      magicRoom.setColor("Purple");
     }
 
     public boolean isMirrored() {
@@ -33,10 +33,11 @@ public class MagicRoom extends Room {
     }
 
     public void setMirrored(boolean mirrored) {
-
+      magicRoom.setMirrored(true);
     }
 
     public String traverse() {
-        return null;
+        return "Teleport";
     }
+
 }

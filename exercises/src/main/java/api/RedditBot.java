@@ -1,6 +1,6 @@
 package api;
 
-import net.dean.jraw.RedditClient;
+/**  import net.dean.jraw.RedditClient;
 import net.dean.jraw.Version;
 import net.dean.jraw.http.NetworkAdapter;
 import net.dean.jraw.http.OkHttpNetworkAdapter;
@@ -83,6 +83,9 @@ public class RedditBot {
 
         //In this method you must create a comment on the post you just created ...
 
+        SubmissionReference submission = new SubmissionReference(this.reddit, "Swkjpr");
+        submission.reply("test comment");
+
         //TODO - implement this method!
 
     }
@@ -104,7 +107,7 @@ public class RedditBot {
          *
          * Reddit API Documentation: https://www.reddit.com/dev/api/
          */
-
+/**
         RedditBot higgins = new RedditBot();
         higgins.printFrontPageMonthlyTop();
         //higgins.createSelfPost();
@@ -112,4 +115,5 @@ public class RedditBot {
         //higgins.sendDirectMessage();
         //System.out.println(higgins.getHigginsCommentAndLinkKarma());
     }
-}
+} /*
+ */

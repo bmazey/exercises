@@ -11,32 +11,53 @@ public class CarBuildDirector {
         this.builder = builder;
     }
 
-    public Car constructSUV() {
+    public Car constructSUV() {         //Done
+        Car mySUV = new Car();
+        mySUV.setColor("Yellow");
+        mySUV.setDoors(4);
+        mySUV.setWheels(4);
+        mySUV.setHasTrunk(true);
+        mySUV.setFuel("Unleaded Gas");
+        return mySUV;
+        }
 
-        //TODO - implement this method! :)
 
-       return new Car();
+
+
+    public Car constructSportscar() {     // Done
+        Car mySportscar = new Car();
+        mySportscar.setColor("Red");
+        mySportscar.setDoors(2);
+        mySportscar.setWheels(4);
+        mySportscar.setHasTrunk(false);
+        mySportscar.setFuel("Premium Gas");
+
+
+        return mySportscar;
     }
 
-    public Car constructSportscar() {
+    public Car constructEighteenWheeler() {   // Done
+        Car myEighteenWheeler = new Car();
+        myEighteenWheeler.setColor("Blue");
+        myEighteenWheeler.setDoors(2);
+        myEighteenWheeler.setWheels(18);
+        myEighteenWheeler.setHasTrunk(false);
+        myEighteenWheeler.setFuel("Diesel");
 
-        //TODO - implement this method! :)
 
-        return new Car();
+        return myEighteenWheeler;
     }
 
-    public Car constructEighteenWheeler() {
+    public Car constructTesla() {    //Done
+        Car myTesla = new Car();
+        myTesla.setColor("Black");
+        myTesla.setDoors(4);
+        myTesla.setWheels(4);
+        myTesla.setHasTrunk(true);
+        myTesla.setFuel("Electricity");
 
-        //TODO - implement this method! :)
 
-        return new Car();
-    }
-
-    public Car constructTesla() {
-
-        //TODO - implement this method! :)
-
-        return new Car();
+        return myTesla;
     }
 
 }
