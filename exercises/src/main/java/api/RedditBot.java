@@ -12,6 +12,8 @@ import net.dean.jraw.pagination.DefaultPaginator;
 import net.dean.jraw.pagination.Paginator;
 import net.dean.jraw.references.*;
 
+import java.util.List;
+
 
 public class RedditBot {
 
@@ -87,9 +89,6 @@ public class RedditBot {
 
     public void sendDirectMessage() {
 
-        SelfUserReference self = new SelfUserReference(this.reddit);
-        self.inbox().compose("Penance", "Hello from Higgins!", "You should've done Instagram!");
-
         // Send a direct message to me on reddit!
         // Username: Penance
 
@@ -107,10 +106,10 @@ public class RedditBot {
          */
 
         RedditBot higgins = new RedditBot();
-        //higgins.printFrontPageMonthlyTop();
+        higgins.printFrontPageMonthlyTop();
         //higgins.createSelfPost();
         //higgins.createCommentOnPost();
-        higgins.sendDirectMessage();
+        //higgins.sendDirectMessage();
         //System.out.println(higgins.getHigginsCommentAndLinkKarma());
     }
 }

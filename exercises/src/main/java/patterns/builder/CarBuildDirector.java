@@ -13,30 +13,50 @@ public class CarBuildDirector {
 
     public Car constructSUV() {
 
-        //TODO - implement this method! :)
+        Car car = new Car();
+        car.setColor("Yellow");
+        car.setDoors(4);
+        car.setWheels(4);
+        car.setFuel("Unleaded Gas");
+        car.setHasTrunk(true);
 
-       return new Car();
+       return car;
     }
 
     public Car constructSportscar() {
 
-        //TODO - implement this method! :)
+        Car car = new Car();
+        car.setColor("Red");
+        car.setHasTrunk(false);
+        car.setFuel("Premium Gas");
+        car.setWheels(4);
+        car.setDoors(2);
 
-        return new Car();
+        return car;
     }
 
     public Car constructEighteenWheeler() {
 
-        //TODO - implement this method! :)
+       Car car = new Car();
+       car.setColor("Blue");
+       car.setDoors(2);
+       car.setWheels(18);
+       car.setFuel("Diesel");
+       car.setHasTrunk(false);
 
-        return new Car();
+        return car;
     }
 
     public Car constructTesla() {
 
-        //TODO - implement this method! :)
+        Car car = new Car();
+        car.setColor("Black");
+        car.setDoors(4);
+        car.setHasTrunk(true);
+        car.setFuel("Electricity");
+        car.setWheels(4);
 
-        return new Car();
+        return car;
     }
 
 }
