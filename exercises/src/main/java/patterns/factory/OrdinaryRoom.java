@@ -5,7 +5,7 @@ public class OrdinaryRoom extends Room {
     //TODO - implement methods!
 
     public int getNumberOfWalls() {
-        return 0;
+        return 4;
     }
 
     public void setNumberOfWalls(int numberOfWalls) {
@@ -13,7 +13,7 @@ public class OrdinaryRoom extends Room {
     }
 
     public int getNumberOfDoors() {
-        return 0;
+        return 2;
     }
 
     public void setNumberOfDoors(int numberOfDoors) {
@@ -21,7 +21,7 @@ public class OrdinaryRoom extends Room {
     }
 
     public String getColor() {
-        return null;
+      return  "White";
     }
 
     public void setColor(String color) {
@@ -37,6 +37,6 @@ public class OrdinaryRoom extends Room {
     }
 
     public String traverse() {
-        return null;
+        return "Open Door";
     }
 }
