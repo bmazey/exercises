@@ -77,6 +77,10 @@ public class RedditBot {
 
         //TODO - implement this method!
 
+        SubredditReference subreddit = new SubredditReference(this.reddit,"test");
+        subreddit.submit(SubmissionKind.SELF,"Here's a post !", "Yeet", false);
+
+
     }
 
     public void createCommentOnPost() {
@@ -85,12 +89,19 @@ public class RedditBot {
 
         //TODO - implement this method!
 
+        //SubmissionReference submission = new SubmissionReference(this.reddit, "Bwkjpr");
+        // submission.reply("Thank you Kanye! Very Cool! ");
+
     }
 
     public void sendDirectMessage() {
 
         // Send a direct message to me on reddit!
         // Username: Penance
+
+        SelfUserReference self = new SelfUserReference(this.reddit);
+        self.inbox().compose("Penance", "Hello From Higgins", "Thank You, Kanye! Very Cool! ");
+
 
         //TODO - implement this method!
     }
@@ -106,8 +117,8 @@ public class RedditBot {
          */
 
         RedditBot higgins = new RedditBot();
-        higgins.printFrontPageMonthlyTop();
-        //higgins.createSelfPost();
+        //higgins.printFrontPageMonthlyTop();
+        higgins.createSelfPost();
         //higgins.createCommentOnPost();
         //higgins.sendDirectMessage();
         //System.out.println(higgins.getHigginsCommentAndLinkKarma());

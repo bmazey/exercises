@@ -23,54 +23,99 @@ public class EthPrice {
 
     public String getEthUsdPriceResponse() throws IOException {
         //TODO - implement this method!
-        return new String();
+        Map<String, String> input = new HashMap<>();
+        String response = "";
+        input.put("pair", "ETHUSD");
+        response = api.queryPublic(KrakenApi.Method.TICKER, input);
+        System.out.println(response);
+
+        return response;
+
     }
 
     public Ticker getEthUsdTicker() throws IOException {
         //TODO - implement this method!
-        return new Ticker();
+        ObjectMapper mapper = new ObjectMapper();
+        Ticker bitcoin = mapper.readValue(getEthUsdPriceResponse(),Ticker.class);
+
+
+        return bitcoin;
     }
 
     public String getEthUsdPrice() throws IOException {
         //TODO - implement this method!
-        return new String();
+
+        ObjectMapper mapper = new ObjectMapper();
+        Ticker bitcoin = mapper.readValue(getEthUsdPriceResponse(),Ticker.class);
+
+        return bitcoin.getResult().getPair().getO();
+
     }
 
     public String getEthCadPriceResponse() throws IOException {
         //TODO - implement this method!
-        return new String();
+        Map<String, String> input = new HashMap<>();
+        String response = "";
+        input.put("pair", "ETHCAD");
+        response = api.queryPublic(KrakenApi.Method.TICKER, input);
+        System.out.println(response);
+
+        return response;
     }
 
     public Ticker getEthCadTicker() throws IOException {
         //TODO - implement this method!
-        return new Ticker();
+        ObjectMapper mapper = new ObjectMapper();
+        Ticker bitcoin = mapper.readValue(getEthCadPriceResponse(),Ticker.class);
+
+
+        return bitcoin;
+
     }
 
     public String getEthCadPrice() throws IOException {
         //TODO - implement this method!
-        return new String();
+        ObjectMapper mapper = new ObjectMapper();
+        Ticker bitcoin = mapper.readValue(getEthCadPriceResponse(),Ticker.class);
+
+        return bitcoin.getResult().getPair().getO();
     }
 
     public String getEthJpyPriceResponse() throws IOException {
         //TODO - implement this method!
-        return new String();
+        Map<String, String> input = new HashMap<>();
+        String response = "";
+        input.put("pair", "ETHJPY");
+        response = api.queryPublic(KrakenApi.Method.TICKER, input);
+        System.out.println(response);
+
+        return response;
     }
 
     public Ticker getEthJpyTicker() throws IOException {
         //TODO - implement this method!
-        return new Ticker();
+        ObjectMapper mapper = new ObjectMapper();
+        Ticker bitcoin = mapper.readValue(getEthJpyPriceResponse(),Ticker.class);
+
+
+        return bitcoin;
     }
 
     public String getEthJpyPrice() throws IOException {
         //TODO - implement this method!
-        return new String();
+        ObjectMapper mapper = new ObjectMapper();
+        Ticker bitcoin = mapper.readValue(getEthJpyPriceResponse(),Ticker.class);
+
+        return bitcoin.getResult().getPair().getO();
     }
 
-    public static void main (String[] args) {
+    public static void main (String[] args) throws IOException{
 
         /**
          * FOR EXPERIMENTATION ONLY!
          */
 
+        EthPrice eth = new EthPrice();
+        eth.getEthUsdPriceResponse();
     }
 }
