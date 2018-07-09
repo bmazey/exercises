@@ -4,39 +4,47 @@ public class MagicRoom extends Room {
 
     //TODO - implement methods!
 
+    private int numberOfWalls = 6;
+
     public int getNumberOfWalls() {
-        return 0;
+        return this.numberOfWalls;
     }
 
     public void setNumberOfWalls(int numberOfWalls) {
 
     }
 
+    private int numberOfDoors = 0;
     public int getNumberOfDoors() {
-        return 0;
+        return this.numberOfDoors;
     }
 
     public void setNumberOfDoors(int numberOfDoors) {
 
     }
 
+    private String color = "Purple";
+
     public String getColor() {
-        return null;
+        return this.color;
     }
 
     public void setColor(String color) {
 
     }
 
+    private boolean mirror = true;
+
     public boolean isMirrored() {
-        return false;
+        return this.mirror;
     }
 
     public void setMirrored(boolean mirrored) {
 
     }
 
+    private String  traverse = "Teleport";
     public String traverse() {
-        return null;
+        return this.traverse;
     }
 }
