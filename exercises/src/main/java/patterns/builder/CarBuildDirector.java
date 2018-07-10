@@ -12,50 +12,51 @@ public class CarBuildDirector {
     }
 
     public Car constructSUV() {
-    Car mySUV = new Car();
-            mySUV.setColor("Yellow");
-            mySUV.setDoors(4);
-            mySUV.setWheels(4);
-            mySUV.setHasTrunk(true);
-            mySUV.setFuel("Unleaded Gas");
 
-       return mySUV;
+        Car car = new Car();
+        car.setColor("Yellow");
+        car.setDoors(4);
+        car.setWheels(4);
+        car.setFuel("Unleaded Gas");
+        car.setHasTrunk(true);
+
+       return car;
     }
 
     public Car constructSportscar() {
 
-        Car mySportscar = new Car();
-        mySportscar.setColor("Red");
-        mySportscar.setDoors(2);
-        mySportscar.setWheels(4);
-        mySportscar.setHasTrunk(false);
-        mySportscar.setFuel("Premium Gas");
+        Car car = new Car();
+        car.setColor("Red");
+        car.setHasTrunk(false);
+        car.setFuel("Premium Gas");
+        car.setWheels(4);
+        car.setDoors(2);
 
-        return mySportscar;
+        return car;
     }
 
     public Car constructEighteenWheeler() {
 
-        Car myEighteenWheeler = new Car();
-        myEighteenWheeler.setColor("Blue");
-        myEighteenWheeler.setDoors(2);
-        myEighteenWheeler.setWheels(18);
-        myEighteenWheeler.setHasTrunk(false);
-        myEighteenWheeler.setFuel("Diesel");
+       Car car = new Car();
+       car.setColor("Blue");
+       car.setDoors(2);
+       car.setWheels(18);
+       car.setFuel("Diesel");
+       car.setHasTrunk(false);
 
-        return myEighteenWheeler;
+        return car;
     }
 
     public Car constructTesla() {
 
-        Car myTesla = new Car();
-        myTesla.setColor("Black");
-        myTesla.setDoors(4);
-        myTesla.setWheels(4);
-        myTesla.setHasTrunk(true);
-        myTesla.setFuel("Electricity");
+        Car car = new Car();
+        car.setColor("Black");
+        car.setDoors(4);
+        car.setHasTrunk(true);
+        car.setFuel("Electricity");
+        car.setWheels(4);
 
-        return myTesla;
+        return car;
     }
 
 }
