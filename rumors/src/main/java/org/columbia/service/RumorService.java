@@ -4,6 +4,7 @@ import org.columbia.dto.RumorDto;
 import org.columbia.dto.RumorIdDto;
 import org.columbia.dto.RumorListDto;
 import org.columbia.entity.RumorEntity;
+import org.columbia.service.RumorJpaRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
