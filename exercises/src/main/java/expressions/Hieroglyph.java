@@ -37,4 +37,4 @@ public class Hieroglyph {
          * EXPERIMENTS ONLY!
          */
     }
-} 
+}
