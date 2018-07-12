@@ -22,7 +22,7 @@ public class RumorController {
     @Autowired
     RumorService rumorService;
 
-       // @PathVariable
+    // @PathVariable
     @RequestMapping(value = "/rumor", method = RequestMethod.POST)
     @ResponseBody
     public ResponseEntity<?> createRumor(@RequestBody RumorDto rumor) {
@@ -46,12 +46,11 @@ public class RumorController {
     @ResponseBody
     public ResponseEntity<?> returnRumorById(@PathVariable UUID id) {
 
-      if (rumorService.rumorExistsBbyId(id)) {
-          RumorEntity entity = rumorService.getRumorByID(id);
-          RumorIdDto rumor = rumorService.convertToRumorIdDto(entity);
-          return new ResponseEntity<RumorIdDto>(rumor, HttpStatus.OK);
-      }
-      else return ResponseEntity.notFound().build();
+        if (rumorService.rumorExistsBbyId(id)) {
+            RumorEntity entity = rumorService.getRumorByID(id);
+            RumorIdDto rumor = rumorService.convertToRumorIdDto(entity);
+            return new ResponseEntity<RumorIdDto>(rumor, HttpStatus.OK);
+        } else return ResponseEntity.notFound().build();
     }
 
     @RequestMapping(value = "/rumor/{id}", method = RequestMethod.DELETE)
@@ -62,9 +61,14 @@ public class RumorController {
         if (rumorService.rumorExistsBbyId(id)) {
             rumorService.deleteRumorbyId(id);
             return ResponseEntity.noContent().build();
-        }
-
-        else return ResponseEntity.notFound().build();
+        } else return ResponseEntity.notFound().build();
     }
 
+    @RequestMapping(value = "/rumor", method = RequestMethod.DELETE)
+    @ResponseBody
+    public ResponseEntity<?> shouldDeleteAllRumors() {
+
+        rumorService.deleteAllRumors();
+        return ResponseEntity.noContent().build();
+    }
 }
