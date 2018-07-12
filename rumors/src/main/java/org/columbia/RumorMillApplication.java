@@ -10,10 +10,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableJpaRepositories("org.columbia.service")
 public class RumorMillApplication {
 
-
-
-    public static void main(String[] args) {
-        SpringApplication.run(RumorMillApplication.class, args);
+    public static void main(String[] args) { SpringApplication.run(RumorMillApplication.class, args);
     }
 
 

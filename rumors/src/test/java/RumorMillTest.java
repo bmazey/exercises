@@ -1,8 +1,10 @@
 import org.columbia.RumorMillApplication;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
+import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.junit.runners.MethodSorters;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -23,6 +25,7 @@ import static org.hamcrest.core.IsEqual.equalTo;
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes=RumorMillApplication.class)
 @AutoConfigureMockMvc
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class RumorMillTest {
 
     @Autowired
@@ -31,7 +34,7 @@ public class RumorMillTest {
     private JSONParser parser = new JSONParser();
 
     @Test
-    public void shouldReturnEmptyListOfRumors() throws Exception {
+    public void aShouldReturnEmptyListOfRumors() throws Exception {
         Object jsonObject = parser.parse(this.mockMvc.perform(get("/api/rumor"))
                 .andDo(print())
                 .andExpect(status().isOk())
@@ -165,7 +168,7 @@ public class RumorMillTest {
     }
 
     @Test
-    public void shouldDeleteAllRumors() throws Exception {
+    public void zShouldDeleteAllRumors() throws Exception {
 
         this.mockMvc.perform(delete("/api/rumor"))
                 .andDo(print())
